@@ -1,6 +1,6 @@
 site:
   title: Clinical e-portofolio
-  start_page: e-portofolio::index.adoc
+  start_page: e-portofolio::home.adoc
 content:
   sources:
   - url: .
