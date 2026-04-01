@@ -3,3 +3,4 @@ version: 1.0
 title: e-portofolio
 nav:
 - modules/ROOT/nav.adoc
+- modules/CASES/nav.adoc

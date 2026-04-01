@@ -7,5 +7,15 @@ content:
     branches: HEAD
 ui:
   bundle:
-    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    url: ./ui-bundle
     snapshot: true
+    
+asciidoc:
+  # Some built-in AsciiDoc attributes are not applicable in the Antora
+  # environment. These attributes include data-uri, allow-uri-read, docinfo,
+  # linkcss, noheader, nofooter, webfonts, and outfilesuffix.
+  attributes:
+    # previous and next page navigation, uses nav.adoc
+    page-pagination: ''
+    idprefix: ''
+    stem: latexmath
