@@ -1,5 +1,5 @@
 site:
-  title: Clinical e-portofolio
+  title: Clinical e-portfolio
   start_page: e-portofolio::home.adoc
 content:
   sources:

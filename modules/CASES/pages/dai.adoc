@@ -1,7 +1,7 @@
 = Traumatic Brain Injury
 
 [.subtitle]
-Diffuse Axonal Injury - by link:https://github.com/pavly-gerges[Dr. Pavly G.]
+Diffuse Axonal Injury - by link:https://github.com/pavly-gerges[Pavly G.]
 
 == Keywords:
 Diffuse Axonal Injury - Traumatic brain injury (TBI) - Motor Vehicle Accident (MVA) - Decerebrate posturing - Brainstem damage
@@ -10,7 +10,13 @@ Diffuse Axonal Injury - Traumatic brain injury (TBI) - Motor Vehicle Accident (M
 Diffuse axonal injury (DAI) is an extensive brain damage as a result of applying sudden shearing forces on the brain tissue usually from successive acceleration-deceleration forces as a consequence of motor vehicle accidents (MVA). The sudden deceleration and the abrupt changes in the angular momentum lead to the application of stretching vectors that stretch out the axons at the gray-white matter interfaces, the higher the deceleration forces, the more severe the axonal stretching vectors. This patient was brought to the ED in a deep coma for intensive care unit admission as a part of the transfer process from another hospital. Ventilatory and hemodynamic support measures were commenced thereafter. An admission emergent spiral NECT full body scan was then commenced before transferring the patient to the intensive care unit. The target of this report is to guide the reader in recognition and life support of such a case, as well as discuss some objective theoretical data that aid the diagnosis of the diffuse axonal injury in the context of traumatic brain injury.
 
 == Introduction
-Trauma is the most common cause of death in young people, and head injury accounts for almost half of these trauma-related deaths. The severity of the head injury ranges from concussion to severe traumatic brain injury (TBI). The term concussion is broadly defined as an alteration in mental status caused by trauma with or without loss of consciousness, and is often used synonymously with mild traumatic brain injury (mTBI). Grades of traumatic brain injury are defined by the Glasgow Coma Scale (GCS) measured 30 minutes after the injury ^<<grades-tbi,1>>^. Decerebrate posturing, also known as the extensor posture develops if a brainstem transection takes place at or below the level of the red nucleus. This also coincides with the level between the superior and the inferior colliculi within the midbrain which corresponds to the rubrospinal tract origin or its pathway to relay into the ventral spinal horn [3]. The rubrospinal tract carries cortical stimulatory signals to modulate the contralateral anti-gravity or flexor muscle tone effect [3]. On the contrary, the vestibulospinal tract originates from the vestibular nucleus at the pons sending ipsilateral stimulatory reticular fibers to the extensor muscles after synapsing in the ventral spinal horn [3]. Transection of the rubrospinal tract leads to dis-inhibition of the extensor muscle tone, and inhibition of the flexor muscles tone leading to the extensor posturing, this phenomenon is known as “Decerebration” that entails disconnection of the cerebral inhibitory effect on the extensor muscles tone leaving the effect of the vestibulospinal tract unopposed. Decerebrate posturing is described as adduction and internal rotation of the shoulder, extension at the elbows with pronation of the forearm, and flexion of the fingers, the lower limbs also show extension and internal rotation at the hip joint, with extension of the knee and planter flexion of the feet, and toes are typically abducted and hyperextended [2]. There are two reticulospinal tracts on each side of the body, the medial longitudinal fasciculus (MLF) or the medial vestibulospinal tract which originates from the medial vestibular nucleus and terminates in the cervical and upper thoracic levels coordinating head, neck, and eye movements, and the lateral vestibulospinal tract (Deiters’ tract) originating from the lateral vestibular nucleus and terminating with ipsilateral synapses in the ventral spinal horn cells with alpha and gamma motor neurons that then travel to the respective extensor muscles [2, 3].
+Trauma is the most common cause of death in young people, and head injury accounts for almost half of these trauma-related deaths. The severity of the head injury ranges from concussion to severe traumatic brain injury (TBI). The term concussion is broadly defined as an alteration in mental status caused by trauma with or without loss of consciousness, and is often used synonymously with mild traumatic brain injury (mTBI). 
+
+Grades of traumatic brain injury are defined by the Glasgow Coma Scale (GCS) measured 30 minutes after the injury ^<<grades-tbi,[1]>>^. Decerebrate posturing, also known as the extensor posture develops if a brainstem transection takes place at or below the level of the red nucleus. This also coincides with the level between the superior and the inferior colliculi within the midbrain which corresponds to the rubrospinal tract origin or its pathway to relay into the ventral spinal horn ^<<decerebrate-anatomy,[3]>>^. 
+
+The rubrospinal tract carries cortical stimulatory signals to modulate the contralateral anti-gravity or flexor muscle tone effect ^<<decerebrate-anatomy,[3]>>^. On the contrary, the vestibulospinal tract originates from the vestibular nucleus at the pons sending ipsilateral stimulatory reticular fibers to the extensor muscles after synapsing in the ventral spinal horn ^<<decerebrate-anatomy,[3]>>^. Transection of the rubrospinal tract leads to dis-inhibition of the extensor muscle tone, and inhibition of the flexor muscles tone leading to the extensor posturing, this phenomenon is known as “Decerebration” that entails disconnection of the cerebral inhibitory effect on the extensor muscles tone leaving the effect of the vestibulospinal tract unopposed. Decerebrate posturing is described as adduction and internal rotation of the shoulder, extension at the elbows with pronation of the forearm, and flexion of the fingers, the lower limbs also show extension and internal rotation at the hip joint, with extension of the knee and planter flexion of the feet, and toes are typically abducted and hyperextended ^<<abnormal-postures,[2]>>^. 
+
+There are two reticulospinal tracts on each side of the body, the medial longitudinal fasciculus (MLF) or the medial vestibulospinal tract which originates from the medial vestibular nucleus and terminates in the cervical and upper thoracic levels coordinating head, neck, and eye movements, and the lateral vestibulospinal tract (Deiters’ tract) originating from the lateral vestibular nucleus and terminating with ipsilateral synapses in the ventral spinal horn cells with alpha and gamma motor neurons that then travel to the respective extensor muscles ^<<abnormal-postures,[2>>^ ^,^ ^<<decerebrate-anatomy,3]>>^.
 
 
 == Case Presentation
@@ -23,7 +29,7 @@ General examination showed contusions all over the collision sites, otherwise wa
 === Patient’s Physical Examination summary: 
 * Glasgow Coma Scale: 4 out of 15, in the format E1-V1-M2.
 * Head & Neck: bilateral non-reactive fixed constricted pupils - impaired light reflex - impaired corneal reflex - impaired vestibulo-ocular reflexes - contusions at the right side of the face (site of impact).
-* GCS-P Score: GCS - PRS = 4 - 2 = 2; where “PRS” stands for Pupils Reactivity Score, in this case both pupils aren’t reactive to both the direct and the consensual light reflexes rendering the score 2 [5]. Together with the age, and the brain CT findings, GCS-P carries a prognostic value, follow-up to the discussion, and the analysis sections to know more.
+* GCS-P Score: GCS - PRS = 4 - 2 = 2; where “PRS” stands for Pupils Reactivity Score, in this case both pupils aren’t reactive to both the direct and the consensual light reflexes rendering the score 2 ^<<gcs,[4>>^ ^,^ ^<<prognostic-info,5]>>^. Together with the age, and the brain CT findings, GCS-P carries a prognostic value, follow-up to the discussion, and the analysis sections to know more.
 * Sensory Function Examination: maintenance of the extensor posture rigidity on applying fairly crude touch and pain stimulus.
 * Motor Function Examination: bilateral brisk hyperreflexia - unilateral left positive sustained ankle myoclonus - bilateral absent plantar flexion reflexes.
 * Cardiopulmonary: no signs of significant lung or heart contusions, except for some minute hemorrhagic secretions on arrival at the ED during the basic ventilatory and hemodynamic support.
@@ -253,20 +259,151 @@ incrementally as the patient was having sub-clinical fits in the abnormal extens
 
 == Therapeutic Timeline:
 
+[.black-header, options="header"]
+|===
+| Timeline | Admission Day | 2^nd^ Day | 3^rd^ Day | 4^th^ Day | 5^th^ Day
+ 
+| Oxygenation & Intubation
+a|
+* Suctioning & ventilatory care for the pre-intubated tube.
+* Mechanical ventilation to maintain the following parameters: PaO~2~ = 100 mm.Hg; PaCO~2~ = 35 mm.Hg; SPO~2~ >= 95%; RR = 12 Bpm.
+* Hyperventilation is not recommended, and should be used cautiously as it depletes carbon dioxide leading to cerebral vasoconstriction impairing the CBF worsening the brain condition.
+|
+|
+|
+| Tracheoesophageal fistula with a severe paroxysmal fall in SPO~2~ to below 60%, upper respiratory tract stridor, and abdominal breathing sounds.
+ 
+| Respiration/PEEP
+a|
+* PEEP provides an added positive supportive pressurization at the end of the expiration phase to maintain the pulmonary inflation avoiding alveolar collapse.
+* PEEP provides protection against ARDS (Acute Respiratory Distress Syndrome).
+* PEEP adjusted to 14--15 cm.H~2~O pressurization parameters to prevent the increase in ICP.
+|
+|
+|
+|
+ 
+| Hemodynamic support
+a|
+Maintenance of the following parameters: +
+SBP >= 110 mm.Hg +
+Hemoglobin >= 7 g/dL +
+pH = 7.35--7.45 +
+Serum sodium = 135--145 mEq/L
+|
+|
+|
+|
+ 
+| Glucose, Thiamine & Neurotonics
+a|
+* Maintenance of the glucose levels between (80--180) mg/dL, by adding 25 gm glucose via 50% dextrose IV solutions.
+* Thiamine 100 mg should be administered with glucose to avoid Wernicke's Encephalopathy.
+|
+|
+|
+|
+ 
+| Seizures
+| An initiative loading dose of Levetriacetam 500 mg/100 mL Saline 0.82% IV b.d for 15 minutes. +
+Carried-out an EEG image.
+| Maintenance dose of Levetriacetam 1000 mg/100 mL Saline 0.75% IV o.d for 15 minutes. +
+Carried-out an EEG image.
+| Further increase up-to 1500 mg/100 mL Saline 0.54% IV o.d for 15 minutes.
+|
+|
+ 
+| Anti-High ICP measures
+a|
+Maintenance of the ICP pressurization below 20 mm.Hg is recommended to prevent the steep decrease of CPP; as CBF = CPP/CVR, and CPP = MAP - ICP.
+|
+|
+|
+|
+ 
+| Venous Thromboembolism Prophylaxis
+|
+| Enoxaparin (Clexane) 40 mg o.d subcutaneously, an anti-factor Xa level can be measured to adjust the dose accordingly.
+|
+|
+|
+ 
+| Body Temperature
+a|
+General measures to keep the patient normothermic (37 deg. Celsius), e.g: Paracetamol IV.
+|
+|
+|
+|
+ 
+| Physical Examination (Coma score & Brainstem status)
+a|
+* GCS = 4/15, E1-V1-M2
+* PRS = 2 (Both pupils aren't reactive to light).
+* GCS-P = GCS - PRS = 2.
+* Maintenance of extensor posture on applying external stimulus.
+* Hyperreflexia
+* Hypertonia
+* Loss of brainstem reflexes (light reflexes -- oculovestibular reflexes -- corneal reflexes)
+* Left Sustained ankle myoclonus
+* Bilateral absent plantar flexion reflex (absent Babinski sign).
+|
+|
+|
+a|
+* GCS = 3/15, E1-V1-M1
+* PRS = 2.
+* GCS-P = 1.
+* Areflexia
+* Flaccid Paralysis
+|===
+ 
+[.subtitle, cols="1,3", frame=none, grid=none]
+|===
+| CBF | Cerebral blood flow
+| CVR | Cerebrovascular resistance
+| CPP | Cerebral perfusion pressure
+| MAP | Mean Arterial pressure
+| PEEP | Positive-end-expiratory pressure
+| PRS | Pupillary light reactivity score; 2 if both pupils are non-reactive
+| GCS-P | Glasgow coma scale pupils score
+|===
+
 == Discussion:
-The evidence from history, physical examination, signs, and diagnostics are all collectively suggestive of a diffuse axonal injury as a result of traumatic brain injury. The physical theory, that highly ascertains the condition, is the abrupt deceleration forces being applied on an accelerating body, these types of forces can be triggered by sudden flips in the direction of the speed of the body [6]. 
+The evidence from history, physical examination, signs, and diagnostics are all collectively suggestive of a diffuse axonal injury as a result of traumatic brain injury. The physical theory, that highly ascertains the condition, is the abrupt deceleration forces being applied on an accelerating body, these types of forces can be triggered by sudden flips in the direction of the speed of the body ^<<acc-dec-mode,[6]>>^. 
 
 The fact of having obvious disrupted gray-white matter interfaces supports the evidence that this is likely an axonal injury. The supportive clinical signs can be depicted from the brainstem damage manifested as the decerebrate rigidity, the impaired
 light reflexes with the damaged oculosympathetic pathway, and the impaired vestibulo-ocular reflexes. In fact, the reticular formation and the reticulospinal tracts are parts of the axons that modulate the peripheral nervous system signals, so they are vulnerable to damage by sudden abrupt deceleration forces, as well. 
 
-The prognosis of the case is considered bad in general, as the survival rate reaches 27% to 32% with a mortality rate ranging from 55% to 60% [Fig-1.1]. By plugging in the NECT findings, the survival rate decreases to even below 20% [Fig-1.2] [7]. 
+The prognosis of the case is considered bad in general, as the survival rate reaches 27% to 32% with a mortality rate ranging from 55% to 60% <<Fig-1.1,[Fig-1.1]>>. By plugging in the NECT findings, the survival rate decreases to even below 20% <<Fig-1.2,[Fig-1.2]>> ^<<prognostic-info-2,[7]>>^. 
 
-A lesson to take home would be the essential knowledge of the basic neuroscience principles to recognize a case of diffuse axonal injury, and determine its severity and prognosis according to the GCS-P modality and serial GCS measurements, in addition, to recognizing the features of brainstem damage, a part of which (pupils’ light reflexes) is essential to complete the GCS-P score modality to reach an approximate prognosis through knowing the survival rate [7]. Furthermore, the incremental steep decrease in hemoglobin, white blood cells count, and platelets combined with high levels of D-dimer over 3 days is highly suggestive of a sort of active internal concealed bleeding. 
+A lesson to take home would be the essential knowledge of the basic neuroscience principles to recognize a case of diffuse axonal injury, and determine its severity and prognosis according to the GCS-P modality and serial GCS measurements, in addition, to recognizing the features of brainstem damage, a part of which (pupils’ light reflexes) is essential to complete the GCS-P score modality to reach an approximate prognosis through knowing the survival rate ^<<prognostic-info-2,[7]>>^. Furthermore, the incremental steep decrease in hemoglobin, white blood cells count, and platelets combined with high levels of D-dimer over 3 days is highly suggestive of a sort of active internal concealed bleeding. 
 
 Liver and renal function tests and the total creatine kinase levels are highly suggestive of the possibility of internal organ injury. Rupture of terminal arterioles and intra-parenchymal damage could lead to internal concealed bleeding that is most likely the cause of the steep incremental decrease in hemoglobin levels. The second abdominal sonography, which was carried out at the last day, was highly assertive evidence for abdominal organs’ contusions and internal concealed bleeding especially in the hepatorenal space, though the abdominal sonography carried out on the second day was clear.
 
 == Thumbnails:
 
-== References
-* [[grades-tbi]] link:https://doi.org/10.1016/j.emc.2019.09.010[Misch, M. R., & Raukar, N. P. (2020). Sports Medicine Update: Concussion. Emergency medicine clinics of North America, 38(1), 207–222.].
+image:tbi-0/gcs-score-table.png[gcs-1,width="",height=""]
+[.subtitle]
+[[Fig-1.1]] Fig-1.1 - Prognosis Reclaiming from the GCS-P Score (GCS-PA Charts), a simple graphical tool in the 3-dimensional vector-space.
 
+image:tbi-0/gcs-score-table-2.png[gcs-2,width="",height=""]
+[.subtitle]
+[[Fig-1.2]] Fig-1.2 - GCS-PA combined with brain CT findings.
+
+image:tbi-0/red-nucleus.png[red,width="",height=""]
+[.subtitle]
+[[Fig-2]] Fig-2 - The red nucleus cortical, spinal and cerebellar connections.
+
+image:tbi-0/oculo-sympathetic-pathway.png[pathway,width="",height=""]
+[.subtitle]
+[[Fig-3]] Fig-3 - The oculo-sympathetic pathway.
+
+== References
+. [[grades-tbi]] link:https://doi.org/10.1016/j.emc.2019.09.010[Misch, M. R., & Raukar, N. P. (2020). Sports Medicine Update: Concussion. Emergency medicine clinics of North America, 38(1), 207–222.].
+. [[abnormal-postures]] link:https://www.ncbi.nlm.nih.gov/books/NBK559135/[Knight J, Decker LC. Decerebrate and Decorticate Posturing. (Updated 2023 Jul 31). In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2023 Jan].
+. [[decerebrate-anatomy]] link:https://www.ncbi.nlm.nih.gov/books/NBK547687/[Whitney E, Alastra AJ. Neuroanatomy, Decerebrate Rigidity. (Updated 2023 Jul 25). In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2023 Jan].
+. [[gcs]] link:https://www.ncbi.nlm.nih.gov/books/NBK513298/[Jain S, Iverson LM. Glasgow Coma Scale. (Updated 2023 Jun 12). In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2023 Jan].
+. [[prognostic-info]] link:https://doi.org/10.3171/2017.12.JNS172780[Brennan, P. M., Murray, G. D., & Teasdale, G. M. (2018). Simplifying the use of prognostic information in traumatic brain injury. Part 1: The GCS-Pupils score: an extended index of clinical severity. Journal of Neurosurgery JNS, 128(6), 1612-1620]. 
+. [[acc-dec-mode]] Barth JT, Freeman JR, Broshek DK, Varney RN. Acceleration-Deceleration Sport-Related Concussion: The Gravity of It All. J Athl Train. 2001 Sep;36(3):253-256.PMID: 12937493; PMCID: PMC155415.
+. [[prognostic-info-2]] link:https://doi.org/10.3171/2017.12.JNS172782[Murray, G. D., Brennan, P. M., & Teasdale, G. M. (2018). Simplifying the use of prognostic information in traumatic brain injury. Part 2: Graphical presentation of probabilities. Journal of Neurosurgery JNS, 128(6), 16211634]. 
