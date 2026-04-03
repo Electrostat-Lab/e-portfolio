@@ -1,81 +1,125 @@
-= "An initial approach to a case of antiphospholipid syndrome with neurological impacts"
-:description: Demo Case Report -- By Pavly G.
-:doctype: article
-:toc:
-:toclevels: 2
-:sectanchors:
-:sectlinks:
+= Anti-phospholipid Syndrome (APS) with focal neurological deficits
 
-*Demo Case Report -- By Pavly G.*
+[.subtitle]
+An initial approach to a case of antiphospholipid syndrome with neurological deficits - by link:https://github.com/pavly-gerges[Pavly G.]
 
-➢ *Keywords:* +
-Antiphospholipid syndrome - unilateral weakness - neurological deficits - Lupus Anticoagulant - Transient Ischemic Attack (TIA) - Cerebrovascular Stroke - Warfarin - LMWH - Hypertensive encephalopathy - immunology - case report
+== Keywords:
+Neurosurgery - Cardiology - Critical Care - Antiphospholipid syndrome - unilateral weakness - neurological deficits - Lupus Anticoagulant - Transient Ischemic Attack (TIA) - Cerebrovascular Stroke - Warfarin - LMWH - Hypertensive encephalopathy - immunology - case report
 
-➢ *Abstract:* +
+== Abstract:
 Antiphospholipid syndrome is an auto-antibody- mediated syndrome characterized by recurrent arterial or venous thrombosis as a result of thrombophilia, the thrombophilia is induced by the idiopathic production of auto-antibodies (commonly lupus anticoagulant - LA), this document reports an APS case presented with neurological deficits with a past medical history of recurrent strokes, then discusses the possible initial approaches, the diagnostic and the risk assessments in details.
 
-➢ *Introduction:* +
+== Introduction:
 This case report targets the neurological deficits in the context of the autoimmune state of an APS patient. The mechanism of nervous system involvement in APS is considered to be primarily thrombotic. The management is quite similar to the usual vascular atherosclerotic disease, however there are certain assertions that need to be ascertained.
 
-➢ *Case Presentation:* +
+== Case Presentation:
 A 22 year-old male patient presented to the ED with sudden symptoms of dizziness and unilateral left side weakness and tingling sensations associated with fits and severe headache on the right calvarial side, the patient reports that the symptoms have started an hour ago, and of progressive intensity, the patient reports that his condition is a recurring condition, the patient is a mild smoker, he smokes 6 cigarettes per day for 5 years.
 
-➢ *Past Medical History:* +
+== Past Medical History:
 The patient reports that he has been diagnosed with Antiphospholipid syndrome before, he also reports that he has a history of hypertension and dyslipidemia, and a very important point, a history of 3 cerebrovascular strokes affecting the left side associated with left facial palsy. The patient denied having diabetes or any other chronic disease.
 
-➢ *Past Surgical History:* +
+== Past Surgical History:
 The surgical history is unremarkable other than the hospitalizations due to the recurrent stroke attacks.
 
-➢ *Medications:* +
+== Medications:
 The patient is administering anti-hypertensive, lipid-lowering and anti-coagulation medications. Of note, at presentation the patient was not cooperative at giving the name, the doses and the duration of the medications, however there is no evidence that Warfarin was one of them, and also no evidence that it is adjusted to maintain the INR >= 3.0 criterion.
 
-➢ *Clinical Findings:* +
-*Physical Examination:* +
+== Clinical Findings:
+=== Physical Examination:
 Neurological examination confirms the unilateral weakness on the left side, and records blood pressure of 177/107 on the left brachial artery.
 
-*Initial Approach:* +
-Consequently from the history and the physical examination, the patient scores 4 on the ABCD2 score for risk stratification of possible progression of TIA to ischemic infarction in 7 days [1], 1 point for his high blood pressure 177/107 recorded on the left brachial artery, 2 points for unilateral weakness, and 1 point for the duration of symptoms (10 - 59 minutes). These are warning signs for an impending or an almost taking place infarction. The most likely approach here is admission for possible anticoagulant or thrombolytic therapy and further evaluation by a stroke physician after obtaining a CT brain image [2].
+=== Initial Approach:
+Consequently from the history and the physical examination, the patient scores 4 on the ABCD2 score for risk stratification of possible progression of TIA to ischemic infarction in 7 days ^<<ref1,[1]>>^, 1 point for his high blood pressure 177/107 recorded on the left brachial artery, 2 points for unilateral weakness, and 1 point for the duration of symptoms (10 - 59 minutes). These are warning signs for an impending or an almost taking place infarction. The most likely approach here is admission for possible anticoagulant or thrombolytic therapy and further evaluation by a stroke physician after obtaining a CT brain image ^<<ref2,[2]>>^.
 
-*The ABCD2 Risk stratification score:* +
+=== The ABCD2 Risk stratification score:
 Sometimes the ABCD2 score is unreliable in some clinical settings, for example, the age of the patient here in this case, that is why some guidelines (NICE) recommends to not rely on this risk assesment score to monitor the progression of a transient ischemic attack, others recommend the imaging techniques to further enhance the sensitivity of this clinical score, so it could be recorded as ABCD2I, where "I" stands for imaging findings, in this way, subjective and objective data mutually give more reliable information about the case we are dealing with.
 
-➢ *Diagnostic Assessment:* +
-The diagnostic testing here should be aimed and directed mainly to the symptoms of concern, CT brain imaging is an indispensable diagnostic study that should be carried out to exclude hemorrhage before the therapeutic intervention [2], ECG, FBC, HBA1c, glucose profile, a lipid profile, a coagulation profile, a liver function, and a renal function test can later be obtained to gather risk factors and complications that need to be treated as a part of the next step in the therapeutic intervention and the follow-up.
+=== Diagnostic Assessment:
+The diagnostic testing here should be aimed and directed mainly to the symptoms of concern, CT brain imaging is an indispensable diagnostic study that should be carried out to exclude hemorrhage before the therapeutic intervention ^<<ref2,[2]>>^, ECG, FBC, HBA1c, glucose profile, a lipid profile, a coagulation profile, a liver function, and a renal function test can later be obtained to gather risk factors and complications that need to be treated as a part of the next step in the therapeutic intervention and the follow-up.
 
-*ECG:* +
-ECG is not of a diagnostic value here, however it carries some clinical prediction values about some events that could lead to serious consequences. Atrial and mural thrombi can detach from the endocardial lining and induce cerebrovascular embolic events, the appreciable electrocardiogram findings that may reveal these events are atrial fibrillations (absent P-waves and replaced by fibrillatory waves), T-wave inversions and/or onset of deep Q-waves indicative of an old MI that carries the risk of developing mural thrombus.
+=== ECG:
+ECG is not of a diagnostic value here, however it carries some clinical prediction values about some events that could lead to serious consequences. **Atrial and mural thrombi** can detach from the endocardial lining and induce **cerebrovascular embolic events**, the appreciable electrocardiogram findings that may reveal these events are **atrial fibrillations (absent P-waves and replaced by fibrillatory waves)**, **T-wave inversions** and/or **onset of deep Q-waves** indicative of an old MI that carries the risk of developing mural thrombus.
 
-*Imaging Techniques:* +
+=== Heart Condtions correlating with Stroke Syndromes:
+. Post-MI Intramural thrombus (Look for the patterns indicating old MI).
+. Mitral Stenosis with AFib or prior thromboembolism event or RHD.
+. An LA thrombus visualized through TTE or TEE.
+. Conditions with Left Atrial Appendage Aneurysms (LAAA) presented with atrial arrhythmias.
+. Atrial Arrhythmias (e.g., AFL, and AF).
+. Patients on Mechanical Valves.
+. Patients with congenital Patent Foramen Oval (PFO).
+. Stoke-Adams Attacks.
+	.. Advanced AV block.
+	.. Serious ventricular arrhythmias.
+	.. Carotid Sinus Hypersensitivity.
+	.. Subclavian Steal Syndrome.
+	.. Sick Sinus Syndrome.
+
+==== EKG findings correlating with Stroke Syndromes:
+The following EKG strips could be simulatenously be found, and should be instinctively sought during the survery of stroke syndromes. The term atrial arrhythmias is inadequate and must be illustrated as "".
+
+[.subtitle]
+Fig - Post-MI EKG
+
+[.subtitle]
+Fig - Variants of AF (Atrial Fibrillation)
+
+[.subtitle]
+Fig - Variants of AFL (Atrial Flutter)
+
+==== Echocardiographic findings correlating with Stroke Syndromes:
+
+[.subtitle]
+Fig - Post-MI Intramural Thrombus
+
+[.subtitle]
+Fig - Mitral Valve Stenosis Variants
+
+[.subtitle]
+Fig - LAAA
+
+[.subtitle]
+Fig - Dilated Left Atrial Chamber in AF patients
+
+[.subtitle]
+Fig - Mitral Stenosis and Rheumatic Heart Disease (RHD)
+
+=== Other medical conditions correlating with Stroke Syndromes:
+. Hypercoagulability States.
+. Vascular Endothelial Injury Conditions (e.g., Arterial Dissection Syndromes).
+. Intracerebral Hemorrhage (Hemorrhagic Stroke).
+
+=== Imaging Techniques:
 Common CT Brain Imaging worrying findings:
 
-➢ Areas of lacunar infarcts (microangiopathic disease). +
-➢ Large area of infarction (massive infarction). +
-➢ Brain edema.
+* Areas of lacunar infarcts (microangiopathic disease). +
+* Large area of infarction (massive infarction). +
+* Brain edema.
 
 Brain MRI imaging and DWI have a better sensitivity, and display infarction as hyperintensity areas. The MRA and MRV can demonstrate the affected arterial territory and is a great tool to guide management using local thrombolytic therapy.
 
-*Laboratory Studies:* +
+=== Laboratory Studies:
 Lab. studies including CBC, U&E, Glucose profile, Lipid profile, Coagulation profile, Liver function test, cardiac enzymes and renal function tests should be carried out to evaluate the process of multi-organ system failure and risk factors of the thrombotic and atherosclerotic disease. Thrombocytopenia and the presence of the lupus anticoagulant (LA) auto-antibody associated with the prolonged PTT with the paradoxical thrombotic tendency are common findings.
 
-*Dif erential Diagnosis:* +
-➢ Migraine. +
-➢ Space occupying lesions. +
-➢ Hemorrhage.
+=== Differential Diagnosis:
+* Migraine. +
+* Space occupying lesions. +
+* Hemorrhage.
 
-*Diagnosis:* +
+== Diagnosis:
 A provisional clinical diagnosis has already been identified through the initial evaluation of the ABCD2 score that the patient is in a state of Transient Ischemic Attack and has a moderate risk to progress to stroke. However, the confirmation can be obtained using the imaging techniques, non-enhanced urgent CT brain image (NECT) is of a diagnostic value and has a high specificity, but low sensitivity, in other words, if no finding is obtained, it cannot exclude the condition, on the other hand MRI and DWI carries a high sensitivity value.
 
-*Therapeutic intervention:* +
-Urgent evaluation for possibility of utilizing a thrombolytic therapy should be carried out based on the imaging results during the first 4.5 hours from the start of symptoms. Lifetime anticoagulation with warfarin to maintain an INR of greater than 3.0 is recommended in this case; because of the recurrent thrombotic events.[3] Control of other atherosclerotic disease risk factors including blood pressure, blood sugar and low density lipoproteins should also be considered. Not to mention, smoking cessation and life-style modifications, though often missed, are very crucial elements for a successful control.
+== Therapeutic intervention:
+Urgent evaluation for possibility of utilizing a thrombolytic therapy should be carried out based on the imaging results during the first 4.5 hours from the start of symptoms. Lifetime anticoagulation with warfarin to maintain an INR of greater than 3.0 is recommended in this case; because of the recurrent thrombotic events ^<<ref3,[3]>>^. Control of other atherosclerotic disease risk factors including blood pressure, blood sugar and low density lipoproteins should also be considered. Not to mention, smoking cessation and life-style modifications, though often missed, are very crucial elements for a successful control.
 
-*Exceptional Therapeutic intervention in pregnant females:*
+== Exceptional Therapeutic intervention in pregnant females:
 
-➢ *Discussion:* +
+== Discussion:
 The initial evaluation through history, physical examination and the risk stratification score "ABCD2I" are the most invaluable tools in the triage of patients into low, moderate and high risk of progression to infarction in 7 days. The patient shouldn't be managed blindly without the assistance of these indispensable tools. Moderate and high risk patients should carry out a NECT brain scan as a part of the initial evaluation, the management can then be routed accordingly with the consideration of the possibility of utilizing thrombolytic therapy. Patients with APS should be kept on lifetime anticoagulation therapy with warfarin within an INR of 2.0-3.0 with an exceptional case of recurrent thrombotic events, in whom the INR should be greater than 3.0.
 
-*References:* +
-➢ Wardlaw J, Brazzelli M, Miranda H, et al. An assessment of the cost-effectiveness of magnetic resonance, including diffusion- weighted imaging, in patients with transient ischaemic attack and minor stroke: a systematic review, meta-analysis and economic evaluation. Southampton (UK): NIHR Journals Library; 2014 Apr. (Health Technology Assessment, No. 18.27.) Chapter 4, ABCD2 score and risk of stroke after transient ischaemic attack and minor stroke. Available from: https://www.ncbi.nlm.nih.gov/books/NBK263115/
+== References:
+. [[ref1]] Wardlaw J, Brazzelli M, Miranda H, et al. An assessment of the cost-effectiveness of magnetic resonance, including diffusion- weighted imaging, in patients with transient ischaemic attack and minor stroke: a systematic review, meta-analysis and economic evaluation. Southampton (UK): NIHR Journals Library; 2014 Apr. (Health Technology Assessment, No. 18.27.) Chapter 4, ABCD2 score and risk of stroke after transient ischaemic attack and minor stroke. Available from: https://www.ncbi.nlm.nih.gov/books/NBK263115/
 
-➢ Wardlaw J, Brazzelli M, Miranda H, et al. An assessment of the cost-effectiveness of magnetic resonance, including diffusion- weighted imaging, in patients with transient ischaemic attack and minor stroke: a systematic review, meta-analysis and economic evaluation. Southampton (UK): NIHR Journals Library; 2014 Apr. (Health Technology Assessment, No. 18.27.) Chapter 6, Diffusion-weighted imaging in patients with transient ischaemic attack or minor stroke. Available from: https://www.ncbi.nlm.nih.gov/books/NBK263104/
+. [[ref2]] Wardlaw J, Brazzelli M, Miranda H, et al. An assessment of the cost-effectiveness of magnetic resonance, including diffusion- weighted imaging, in patients with transient ischaemic attack and minor stroke: a systematic review, meta-analysis and economic evaluation. Southampton (UK): NIHR Journals Library; 2014 Apr. (Health Technology Assessment, No. 18.27.) Chapter 6, Diffusion-weighted imaging in patients with transient ischaemic attack or minor stroke. Available from: https://www.ncbi.nlm.nih.gov/books/NBK263104/
 
-➢ Venous Thrombosis in the Antiphospholipid Syndrome, FarmerBoatwright, Mary Katherine, Roubey,Robert A.S, 2009/03/01, American Heart Association, https://doi.org/10.1161/ATVBAHA.108.182204
+. [[ref3]] Venous Thrombosis in the Antiphospholipid Syndrome, FarmerBoatwright, Mary Katherine, Roubey,Robert A.S, 2009/03/01, American Heart Association, https://doi.org/10.1161/ATVBAHA.108.182204
