@@ -1,0 +1,2 @@
+* Clinical Companion
+** xref:comp.adoc[The Clinical Companion Cheat Sheet]
