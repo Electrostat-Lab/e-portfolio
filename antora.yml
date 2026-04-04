@@ -4,3 +4,4 @@ title: e-portofolio
 nav:
 - modules/ROOT/nav.adoc
 - modules/CASES/nav.adoc
+- modules/COMPANION/nav.adoc

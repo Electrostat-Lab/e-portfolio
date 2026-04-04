@@ -1,0 +1,738 @@
+= The Clinical Companion
+
+[.subtitle]
+****
+The complete tool to ace the clinical ward service by by link:https://github.com/pavly-gerges[Pavly G.].
+****
+
+:doctype: article
+:toc: left
+:toclevels: 3
+:icons: font
+:source-highlighter: highlight.js
+:imagesdir: images
+:description: The complete tool to ace the clinical ward service.
+:keywords: critical care, medical emergencies, clinical assessment, ECG, EEG, drug dosing
+:revdate: 2023-2024
+:revremark: Updated according to the latest NICE, ESC, AHA, ADA, ATS, KDIGO, & SCCM guidelines.
+
+[.modules]
+____
+[Critical-care sheet] +
+[Medical emergencies guidance] +
+[Critical-care emergencies guidance] +
+[Surgical Emergencies guidance] +
+[Target-based Clinical Examination] +
+[Emergency maneuvers guidance] +
+[ECG Quick Guide] +
+[EEG Quick Guide] +
+[Drug dosing supplement]
+____
+
+[NOTE]
+====
+The final bulletin copyright 2023-2024. Updated according to the latest NICE, ESC, AHA, ADA, ATS, KDIGO, & SCCM guidelines. Works best with Emergency & Critical Care.
+====
+
+---
+
+== General Assessment
+
+=== Vitals
+
+[cols="1,2", options="header"]
+|===
+| Parameter | Value
+
+| SaO2 |
+| HR |
+| BP (reading, artery, position) |
+| RR |
+| Temp. |
+| Random-Blood-Sugar |
+|===
+
+=== General Systems-Review (or Notes)
+
+_[Free text field]_
+
+---
+
+=== Neurological Assessment
+
+==== NIHSS (National Institute of Health Stroke Scale)
+
+[cols="1,2,3,1", options="header"]
+|===
+| Item | Title | Description | Score
+
+| 1A | Level of Consciousness
+| 0 = Alert +
+1 = Drowsy +
+2 = Obtunded +
+3 = Coma/unresponsiveness
+|
+
+| 1B | Orientation Questions (2)
+| 0 = Answers both correctly +
+1 = Answers one correctly +
+2 = Answers neither correctly
+|
+
+| 1C | Response to commands (2)
+| 0 = Performs both tasks correctly +
+1 = Performs 1 task correctly +
+2 = Performs neither
+|
+
+| 2 | Gaze
+| 0 = Normal horizontal movements +
+1 = Partial gaze palsy +
+2 = Complete gaze palsy
+|
+
+| 3 | Visual Fields
+| 0 = No visual field defect +
+1 = Partial hemianopia +
+2 = Complete hemianopia +
+3 = Bilateral hemianopia
+|
+
+| 4 | Facial movement
+| 0 = Normal +
+1 = Minor Facial Weakness +
+2 = Partial Facial Weakness +
+3 = Complete unilateral palsy
+|
+
+| 5a | Motor function (arm) – Left
+| 0 = No drift +
+1 = Drift before 10s +
+2 = Falls before 10s +
+3 = No effort against gravity +
+4 = No movement
+|
+
+| 5b | Motor function (arm) – Right
+| 0 = No drift +
+1 = Drift before 10s +
+2 = Falls before 10s +
+3 = No effort against gravity +
+4 = No movement
+|
+
+| 6a | Motor function (leg) – Left
+| 0 = No drift +
+1 = Drift before 10s +
+2 = Falls before 10s +
+3 = No effort against gravity +
+4 = No movement
+|
+
+| 6b | Motor function (leg) – Right
+| 0 = No drift +
+1 = Drift before 10s +
+2 = Falls before 10s +
+3 = No effort against gravity +
+4 = No movement
+|
+
+| 7 | Limb ataxia
+| 0 = No Ataxia +
+1 = Ataxia in 1 limb +
+2 = Ataxia in 2 limbs
+|
+
+| 8 | Sensory
+| 0 = No sensory loss +
+1 = Mild sensory loss +
+2 = Severe sensory loss
+|
+
+| 9 | Language
+| 0 = Normal +
+1 = Mild aphasia +
+2 = Severe aphasia +
+3 = Mute or global aphasia
+|
+
+| 10 | Articulation
+| 0 = Normal +
+1 = Mild dysarthria +
+2 = Severe dysarthria
+|
+
+| 11 | Extinction or Inattention
+| 0 = Absent +
+1 = Mild loss (1 sensory modality lost) +
+2 = Severe loss (2 sensory modality lost)
+|
+|===
+
+==== GCS (Glasgow Coma Scale)
+
+[cols="2,3,1", options="header"]
+|===
+| Component | Description | Score
+
+| *Eye*
+| Spontaneous = 4 +
+To sound = 3 +
+To pressure = 2 +
+None = 1 +
+Not Testable = NT
+|
+
+| *Verbal*
+| Orientated = 5 +
+Confused = 4 +
+Words = 3 +
+Sounds = 2 +
+None = 1 +
+Not Testable = NT
+|
+
+| *Motor*
+| Obeys commands = 6 +
+Localizing = 5 +
+Normal Flexion = 4 +
+Abnormal Flexion = 3 +
+Extension = 2 +
+None = 1 +
+Not Testable = NT
+|
+
+| *Pupils Light Reactivity*
+| Both non-reactive = 2.0 +
+Only-one non-reactive = 1.0 +
+Both are reactive = 0.0
+|
+|===
+
+*GCS = ( )/15, E( )V( )M( ). GCS-P = ( )/15.*
+
+==== Abbreviated Mental Test (AMT Score)
+
+[cols="2,1", options="header"]
+|===
+| Feature | Score
+
+| Age | 1.0
+| Date of birth | 1.0
+| Current Year | 1.0
+| Time (nearest hour) | 1.0
+| Name of hospital | 1.0
+| Recognize 2 people (e.g: Dr & Nurse) | 1.0
+| Qualifications | 1.0
+| President Name | 1.0
+| Recall address: "42 west street" or any other words. | 1.0
+| Count backwards from 20 to 1 | 1.0
+|===
+
+[NOTE]
+AMT Score >= 8 is normal for an elderly patient.
+
+---
+
+== Cardiopulmonary Assessment
+
+=== Well's Pretest Criteria (PE)
+
+[cols="2,1", options="header"]
+|===
+| Feature | Score
+
+| Signs of DVT (swelling + tenderness) | 3.0
+| IV drug use | 3.0
+| HR > 100 Bpm | 1.5
+| Prior PE or DVT | 1.5
+| Bedridden > 3 days or surgery within the past 4 weeks | 1.5
+| Cancer (treated actively or with palliation within 6 months) | 1.0
+| Hemoptysis (signs of pulmonary infarction) | 1.0
+| PE is most likely "HIGH D-dimer?? – Abnormal V/Q – Abnormal CTPA" | 3.0
+|===
+
+* Total Score <= 4.0 → PE unlikely
+* >= 4.5 → PE likely – PA imaging is needed to exclude PE.
+
+=== CHA2DS2-VASc (AFib)
+
+[cols="2,1", options="header"]
+|===
+| Feature | Score
+
+| C.H.F | 1
+| HTN | 1
+| Age >= 75 | 2
+| DM | 1
+| Stroke/TIA/TE | 2
+| Vascular disease (prior MI, PAD or aortic plaque) | 1
+| Age 65–74 | 1
+| Sex Category (ie, female sex) | 1
+|===
+
+* Total Score: Males >= 2, Females >= 3
+
+[NOTE]
+Positive scores require life-long anti-coagulants to maintain INR (2.0–3.0) to prevent strokes.
+
+=== HAS-BLED (Pretest for bleeding tendency)
+
+[cols="2,1", options="header"]
+|===
+| Feature | Score
+
+| Hypertension (SP > 160 mm.Hg) | 1.0
+| *Abnormal renal function and/or *Abnormal hepatic function | 1.0 for each
+| Stroke (previous ischemic or hemorrhagic) | 1.0
+| ^Bleeding history or predisposition | 1.0
+| #Labile INRs | 1.0
+| Elderly (age > 65) | 1.0
+| >Drugs or excessive alcohol drinking | 1.0 for each
+| *Maximum Score* | *9.0*
+|===
+
+[NOTE]
+====
+* *Abnormal renal function* = dialysis – transplant – serum creatinine > 200 micromol/L.
+* *Abnormal hepatic function* = cirrhosis – bilirubin > x2 upper limit of normal – AST/ALT/ALP > 3x upper limit of normal.
+* *^Bleeding history* = previous major hemorrhage (hemorrhagic stroke) – anemia – severe thrombocytopenia.
+* *#Labile INRs* = Time therapeutic range (TTR) < 60% in patient receiving VKA.
+* *>Drugs* = concomitant use of antiplatelet or NSAIDs; and/or excessive alcohol per week.
+====
+
+=== CURB-65 (CAP Severity Assessment)
+
+[cols="2,1", options="header"]
+|===
+| Feature | Score
+
+| Confusion (AMT 8 or less) | 1.0
+| Urea > 7 mmol/L | 1.0
+| Respiratory Rate >= 30 Bpm | 1.0
+| Blood pressure (SP < 90 or DP <= 60 mm.Hg) | 1.0
+| Age >= 65 years | 1.0
+|===
+
+[cols="1,3", options="header"]
+|===
+| Total Score | Management
+
+| 0–1 (Low severity) | Home treatment, amoxicillin 500mg/8h PO.
+| 2 (Moderate severity) | Ward treatment, send pan-cultures, amoxicillin 500mg–1g/8h PO + clarithromycin 500mg/12h.
+| 3–5 (High Severity) | Critical Care, send pan-cultures, co-amoxiclav 1.2g/8h IV + Clarithromycin 500mg/12h.
+|===
+
+=== IDSA/ATS Criteria (for defining severe CAP)
+
+[cols="1,2,2", options="header"]
+|===
+| Criterion Type | Feature | Value
+
+| Minor | Respiratory Rate | >= 30 Bpm
+| Minor | PaO2/FiO2 | <= 250
+| Minor | Multilobar infilterates | Yes
+| Minor | Confusion/disorientation | Yes
+| Minor | Uremia | BUN >= 20 mg/dL
+| Minor | Leukopenia | WBC < 4000 cells/micro-liter
+| Minor | Thrombocytopenia | Platelets < 100,000 cells/micro-liter
+| Minor | Hypothermia | core temperature < 36 deg.C
+| Minor | Hypotension | requiring aggressive fluid resuscitation
+| Major | Septic shock | with need for vasopressors
+| Major | Respiratory failure | requiring mechanical ventilation
+|===
+
+[NOTE]
+Validated definition includes either one major criterion or three or more minor criteria.
+
+=== SOFA (Sepsis-related Organ Failure Assessment)
+
+_[See Appendix-B: Critical-care emergencies guidance]_
+
+=== Diagnostic Criteria for ARDS
+
+_[See Appendix-B: Critical-care emergencies guidance]_
+
+=== Diagnostic Criteria for Sepsis & Septic Shock (2016 SSC)
+
+_[See Appendix-B: Critical-care emergencies guidance]_
+
+---
+
+== Gastroenterology, Hepatology & Renal Assessment
+
+=== Modified Glasgow-Ranson's Criteria (Acute Pancreatitis Severity)
+
+[cols="2,1", options="header"]
+|===
+| Feature | Score
+
+| Age > 55 years | 1.0
+| PaO2 < 8.0 kPa (60 mm.Hg) | 1.0
+| WCC > 15 * 10^9^/L | 1.0
+| Ca^2+^ < 2 mmol/L (36 mg/dL) | 1.0
+| Glucose > 10 mmol/L (180 mg/dL) | 1.0
+| ALT > 100u/L | 1.0
+| LDH > 600u/L | 1.0
+| Urea > 16 mmol/L (288 mg/dL) | 1.0
+| Albumin < 32 g/L | 1.0
+|===
+
+[NOTE]
+>= 3 predicts an episode of severe pancreatitis prompting ICU admission & preparation for *ERCP if gallstone etiology.
+
+[NOTE]
+====
+* *ERCP*: Endoscopic Retrograde cholangiopancreatography.
+* *kPa*: Kilo Pascal.
+====
+
+=== AKIN Criteria (KDIGO)
+
+[cols="2,2,1", options="header"]
+|===
+| Serum Creatinine | Urine Output | Stage
+
+| (1.5–1.9) x baseline within the prior 7 days +
+--OR-- an increase of >= 0.3 mg/dl within 48 hours
+| < 0.5 ml/kg/hr for 6–12 hrs
+| 1
+
+| (2.0–2.9) x baseline
+| < 0.5 ml/kg/hr for >= 12 hrs
+| 2
+
+| (3.0) x baseline +
+--OR-- an increase in SCr to >= (4.0) mg/dl +
+--OR-- initiation of RRT +
+--OR-- In patients < 18 yrs, decrease in eGFR to less than 35 ml/min/1.73m^2^
+| < 0.3 ml/kg/hr for >= 24 hrs +
+--OR-- Anuria for >= 12 hrs
+| 3
+|===
+
+=== CKD Criteria (KDIGO)
+
+Criteria for CKD (either one or more present for > 3 months):
+
+[cols="1,2", options="header"]
+|===
+| Criterion | Definition
+
+| *Markers of kidney damage (Albuminuria – Cause criteria)*
+| Albuminuria (AER >= 30 mg/24 hrs; ACR >= 30 mg/gm) +
+Urine sediment abnormalities +
+Electrolyte & other abnormalities due to tubular disorders +
+Abnormalities detected by histology +
+Structural abnormalities detected by imaging +
+History of renal transplantation
+
+| *Decreased GFR (GFR criteria)*
+| GFR < 60 ml/min/1.73 m^2^ (GFR categories G3a–G5)
+|===
+
+---
+
+== Personal Data
+
+_Pick up relevant items only._
+
+* *Name:*
+* *Age:*
+* *Gender:*
+* *Ethnicity:*
+* *Occupation:*
+* *Residency:*
+* *Special habits (smoking – drinking):*
+* *Known Chronic diseases:*
+* *Presentation time:*
+
+=== Chief Complaint
+
+_[Follow the is?–what?–List]_
+
+* **Acute Onset:**
+* **Chronic Onset:**
+* **Recurring Condition & Frequency:**
+* *Estimated Duration:*
+* *Progressiveness (progress/regress) over:*
+* *Characteristics of symptoms (pain class – sputum/vomitus/urine/stool/discharge class/color/odor/quantity):*
+* *Radiation of pain:*
+* *Associations:*
+* *Premonitory symptoms:*
+* *Exacerbating Factors:*
+* *Relieving Factors:*
+
+=== Menstrual & Obstetric History
+
+* *Age of menarche:*
+* *Age of Menopause:*
+* *Period frequency:*
+* *Is pregnant?*
+* *First day of the last menstrual period (LMP) aka. first day of menstruation:*
+* *Estimated Gestation Age (EGA = Current Date – LMP Date):*
+* *Estimated due date (EDD = LMP + 9m + length-of-previous-cycle – 21d):*
+* *HCG (+ve) date:*
+* *Gravidity, term, preterm, abortuses, and living (GxP-TPAL):* G......, P.........
+* *Contraception methods, duration, and side effects:*
+* *Sexually transmitted diseases:*
+
+=== Past Medical History
+
+==== Major Illnesses
+
+* [ ] HTN
+* [ ] DM
+* [ ] Reactive Airway Disease
+* [ ] CHF
+* [ ] Angina
+* [ ] CVS
+* Others:
+
+==== Minor Illnesses
+
+* Infections:
+* Others:
+
+==== Hospitalizations
+
+* *Indications:*
+* *Estimated Date:*
+* *Estimated Discharge time:*
+
+=== Past Surgical History
+
+* *Procedures:*
+* *Date:*
+* *Approach:*
+* *Hospital name:*
+* *Complications:*
+
+=== Allergies (Drugs & Substances)
+
+* *Medications:*
+* *Dosages:*
+* *Route of administration:*
+* *Indications:*
+* *Frequency:*
+* *Duration:*
+* *Significant Adverse Effects:*
+
+=== Social History
+
+* *Occupation:*
+* *Marital Status:*
+* *Children:*
+* *Drug abuse/smoking:*
+
+=== Family History
+
+---
+
+== Summary of Systems-Review
+
+_Focused on life threatening conditions – see clinical pretest scores._
+
+* *Cardiovascular:*
+* *Head & Neck:*
+* *Respiratory:*
+* *Neurological:*
+* *Gastroenterology:*
+* *Musculoskeletal:*
+* *Genitourinary:*
+
+---
+
+== Examination Findings
+
+* *Head & Neck:*
+* *Neurological:*
+* *Cardiovascular:*
+* *Gastroenterology:*
+* *Respiratory:*
+* *Musculoskeletal:*
+* *Genitourinary:*
+
+---
+
+== Requested Investigations
+
+* *EKG* (HR – Rhythm – PR – QRS morph – QRS Axis – ST – T – QT):
+* *Ultrasonography:*
+* *Doppler:*
+* *X-ray:*
+* *CT:*
+* *MRI:*
+* *C&S:*
+
+=== Laboratory Studies
+
+* *FBC:*
+* *ABG:*
+* *U&E:*
+* *SCr:*
+* *Urinalysis & Sediments:*
+* *LFT:*
+* *Blood glucose (HbA1c – 2hrsGTT):*
+* *Lipid profile:*
+* *Pancreatic Enzymes:*
+* *Cardiac Enzymes:*
+* *Coagulation Profile (PT, PTT, INR):*
+* *Serum Cultures:*
+* *Urine Cultures:*
+* *Urine AER (Albumin excretion rate):*
+* *Urine ACR (Albumin:Creatinine ratio):*
+
+=== Analysis
+
+_[Free text field]_
+
+---
+
+== Case Analysis
+
+[NOTE]
+====
+Adapted from *Dr. J. Reason's Swiss Cheese Model* for complex analysis. Subsequent active failures alignment with latent organ failure, leading to an inevitable catastrophic failure (denoted as a "Lightning Spark"). To analyze the case properly, insert the _sequential active failures_, and the _catastrophic events_ at the lightning spark polygon.
+====
+
+++++
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 340">
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M2 1L8 5L2 9" fill="none" stroke="#888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </marker>
+  <marker id="arrow-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M2 1L8 5L2 9" fill="none" stroke="#C0392B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </marker>
+  <clipPath id="cl1"><rect x="110" y="50" width="72" height="240"/></clipPath>
+  <clipPath id="cl2"><rect x="210" y="50" width="72" height="240"/></clipPath>
+  <clipPath id="cl3"><rect x="310" y="50" width="72" height="240"/></clipPath>
+  <clipPath id="cl4"><rect x="390" y="50" width="84" height="240"/></clipPath>
+  <clipPath id="cl5"><rect x="488" y="50" width="84" height="240"/></clipPath>
+</defs>
+
+<!-- Hazard origin -->
+<circle cx="56" cy="170" r="16" fill="none" stroke="#888" stroke-width="1" opacity="0.5"/>
+<circle cx="56" cy="170" r="4" fill="#888" opacity="0.5"/>
+
+<!-- Slice 1 -->
+<g clip-path="url(#cl1)">
+  <rect x="110" y="50" width="72" height="240" rx="6" fill="#e8e6df" stroke="#b0ae a6" stroke-width="0.5" opacity="0.85"/>
+</g>
+<ellipse cx="146" cy="118" rx="14" ry="22" fill="white" stroke="#aaa" stroke-width="0.5"/>
+<ellipse cx="146" cy="225" rx="12" ry="18" fill="white" stroke="#aaa" stroke-width="0.5"/>
+
+<!-- Slice 2 -->
+<g clip-path="url(#cl2)">
+  <rect x="210" y="50" width="72" height="240" rx="6" fill="#e8e6df" stroke="#aaa" stroke-width="0.5" opacity="0.85"/>
+</g>
+<ellipse cx="246" cy="145" rx="13" ry="20" fill="white" stroke="#aaa" stroke-width="0.5"/>
+<ellipse cx="246" cy="92"  rx="11" ry="16" fill="white" stroke="#aaa" stroke-width="0.5"/>
+<ellipse cx="246" cy="250" rx="10" ry="14" fill="white" stroke="#aaa" stroke-width="0.5"/>
+
+<!-- Slice 3 -->
+<g clip-path="url(#cl3)">
+  <rect x="310" y="50" width="72" height="240" rx="6" fill="#e8e6df" stroke="#aaa" stroke-width="0.5" opacity="0.85"/>
+</g>
+<ellipse cx="346" cy="105" rx="12" ry="19" fill="white" stroke="#aaa" stroke-width="0.5"/>
+<ellipse cx="346" cy="200" rx="14" ry="22" fill="white" stroke="#aaa" stroke-width="0.5"/>
+
+<!-- Slice 4 -->
+<g clip-path="url(#cl4)">
+  <rect x="390" y="50" width="84" height="240" rx="6" fill="#e8e6df" stroke="#aaa" stroke-width="0.5" opacity="0.85"/>
+</g>
+<ellipse cx="432" cy="170" rx="13" ry="20" fill="white" stroke="#aaa" stroke-width="0.5"/>
+<ellipse cx="432" cy="96"  rx="10" ry="14" fill="white" stroke="#aaa" stroke-width="0.5"/>
+<ellipse cx="432" cy="252" rx="9"  ry="13" fill="white" stroke="#aaa" stroke-width="0.5"/>
+
+<!-- Slice 5 -->
+<g clip-path="url(#cl5)">
+  <rect x="488" y="50" width="84" height="240" rx="6" fill="#e8e6df" stroke="#aaa" stroke-width="0.5" opacity="0.85"/>
+</g>
+<ellipse cx="530" cy="170" rx="14" ry="22" fill="white" stroke="#aaa" stroke-width="0.5"/>
+<ellipse cx="530" cy="90"  rx="10" ry="14" fill="white" stroke="#aaa" stroke-width="0.5"/>
+<ellipse cx="530" cy="255" rx="9"  ry="12" fill="white" stroke="#aaa" stroke-width="0.5"/>
+
+<!-- Dashed hazard arrow -->
+<line x1="72" y1="170" x2="110" y2="170"
+      stroke="#888" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.5"
+      marker-end="url(#arrow)"/>
+
+<!-- Red failure trajectory -->
+<polyline
+  points="146,118 210,145 280,145 310,145 346,170 390,170 432,170 488,170 530,170 596,170"
+  fill="none" stroke="#C0392B" stroke-width="1.8"
+  marker-end="url(#arrow-red)"/>
+
+<!-- Lightning bolt polygon -->
+<polygon points="596,148 616,148 604,165 622,165 600,192 608,170 591,170"
+         fill="#C0392B" opacity="0.9"/>
+
+<!-- Slice labels -->
+<text font-family="sans-serif" font-size="11" fill="#555" x="146" y="308" text-anchor="middle">Latent failure 1</text>
+<text font-family="sans-serif" font-size="11" fill="#555" x="246" y="308" text-anchor="middle">Latent failure 2</text>
+<text font-family="sans-serif" font-size="11" fill="#555" x="346" y="308" text-anchor="middle">Latent failure 3</text>
+<text font-family="sans-serif" font-size="11" fill="#555" x="432" y="308" text-anchor="middle">Active failure 1</text>
+<text font-family="sans-serif" font-size="11" fill="#555" x="530" y="308" text-anchor="middle">Active failure 2</text>
+
+<!-- End labels -->
+<text font-family="sans-serif" font-size="11" fill="#555" x="56"  y="200" text-anchor="middle">Hazard</text>
+<text font-family="sans-serif" font-size="11" fill="#C0392B" x="622" y="210" text-anchor="start">Catastrophic</text>
+<text font-family="sans-serif" font-size="11" fill="#C0392B" x="622" y="224" text-anchor="start">failure</text>
+
+<!-- Title -->
+<text font-family="sans-serif" font-size="13" font-weight="500" fill="#333" x="340" y="30" text-anchor="middle">Reason&#8217;s Swiss Cheese Model</text>
+</svg>
+++++
+
+=== Approach to Therapy
+
+_[Free text field]_
+
+---
+
+== Five-Week Timeline (Drugs & Diagnostics)
+
+[NOTE]
+"Timeline valid only for 6 weeks only"
+
+[cols="1,1,1,1,1,1,1,1", options="header"]
+|===
+| Timeline | | | | | | |
+
+| Drugs | | | | | | |
+| Investigations | | | | | | |
+| Hand-over notes | | | | | | |
+|===
+
+[cols="1,1,1,1,1,1,1,1", options="header"]
+|===
+| Timeline | | | | | | |
+
+| Drugs | | | | | | |
+| Investigations | | | | | | |
+| Hand-over notes | | | | | | |
+|===
+
+[cols="1,1,1,1,1,1,1,1", options="header"]
+|===
+| Timeline | | | | | | |
+
+| Drugs | | | | | | |
+| Investigations | | | | | | |
+| Hand-over notes | | | | | | |
+|===
+
+---
+
+== Appendices
+
+* *Appendix-A:* Medical emergencies guidance
+* *Appendix-B:* Critical-care emergencies guidance
+* *Appendix-C:* Surgical emergencies guidance
+* *Appendix-D:* Target-based examination
+* *Appendix-E:* Emergency maneuvers guidance
+* *Appendix-F:* ECG Quick guide
+* *Appendix-G:* EEG Quick guide
+* *Appendix-H:* Drug dosing guidance
