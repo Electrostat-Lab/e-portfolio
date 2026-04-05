@@ -2,7 +2,7 @@
 
 [.subtitle]
 ****
-The complete tool to ace the clinical ward service by by link:https://github.com/pavly-gerges[Pavly G.].
+The complete tool to ace the clinical ward service by by link:https://github.com/pavly-gerges[Pavly G.]
 ****
 
 :doctype: article

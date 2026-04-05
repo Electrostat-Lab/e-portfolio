@@ -1,0 +1,869 @@
+/**
+ * ATLS 11th Edition — xABCDE Primary Survey Algorithm
+ * Three-Column Layout:
+ *   LEFT   → Sequential algorithm nodes (brief, decision-flow)
+ *   MIDDLE → Detailed breakdown of each maneuver
+ *   RIGHT  → Image placeholder template for each step
+ *
+ * Render with:
+ *   dot -Tsvg atls_xabcde_algorithm.dot -o atls_xabcde_algorithm.svg
+ *   dot -Tpdf atls_xabcde_algorithm.dot -o atls_xabcde_algorithm.pdf
+ *
+ * Editing notes:
+ *   • Each PRIMARY step has a matching DETAIL node (suffix _d) and IMAGE node (suffix _i)
+ *   • Column membership is controlled by invisible rank-constraining edges
+ *   • Colors follow ATLS severity convention:
+ *       Red    → Immediate life-threat
+ *       Orange → Urgent maneuver
+ *       Yellow → Assessment / evaluation
+ *       Green  → Completed / stable
+ *       Blue   → Adjunct / monitoring
+ *       Gray   → Image placeholder
+ */
+
+digraph ATLS_xABCDE {
+
+    /* ─────────────────────────────────────────────
+       GLOBAL GRAPH SETTINGS
+    ───────────────────────────────────────────── */
+    graph [
+        rankdir     = TB
+        splines     = spline
+        nodesep     = 0.55
+        ranksep     = 0.70
+        fontname    = "Helvetica Neue"
+        fontsize    = 11
+        pad         = 0.5
+        bgcolor     = "#FAFAFA"
+        label       = "ATLS® 11th Edition | Primary Survey: xABCDE Algorithm\nAmerican College of Surgeons Committee on Trauma"
+        labelloc    = t
+        labeljust   = c
+        fontsize    = 16
+    ]
+
+    node [
+        fontname    = "Helvetica Neue"
+        fontsize    = 10
+        style       = "filled,rounded"
+        penwidth    = 1.5
+        margin      = "0.20,0.12"
+    ]
+
+    edge [
+        fontname    = "Helvetica Neue"
+        fontsize    = 9
+        color       = "#444444"
+        arrowsize   = 0.8
+    ]
+
+    /* ═══════════════════════════════════════════════════════════════════
+       COLUMN HEADER NODES
+    ═══════════════════════════════════════════════════════════════════ */
+
+    subgraph cluster_headers {
+        rank = same
+        style = invis
+
+        hdr_L [
+            label     = "SEQUENTIAL ALGORITHM\n(Primary Survey Flow)"
+            shape     = rect
+            style     = "filled"
+            fillcolor = "#1A1A2E"
+            fontcolor = white
+            fontsize  = 12
+            fontname  = "Helvetica Neue Bold"
+            width     = 3.2
+        ]
+
+        hdr_M [
+            label     = "MANEUVER DETAIL\n(Assessment & Intervention)"
+            shape     = rect
+            style     = "filled"
+            fillcolor = "#16213E"
+            fontcolor = white
+            fontsize  = 12
+            fontname  = "Helvetica Neue Bold"
+            width     = 4.5
+        ]
+
+        hdr_R [
+            label     = "ILLUSTRATION TEMPLATE\n(Clinical Image Placeholder)"
+            shape     = rect
+            style     = "filled"
+            fillcolor = "#0F3460"
+            fontcolor = white
+            fontsize  = 12
+            fontname  = "Helvetica Neue Bold"
+            width     = 3.0
+        ]
+    }
+
+    /* ═══════════════════════════════════════════════════════════════════
+       STEP 0 — SCENE SAFETY & PREPARATION
+    ═══════════════════════════════════════════════════════════════════ */
+
+    /* ── LEFT ── */
+    S0 [
+        label     = "PREPARATION\n& SCENE SAFETY"
+        shape     = octagon
+        fillcolor = "#2D4A22"
+        fontcolor = white
+        fontsize  = 11
+        fontname  = "Helvetica Neue Bold"
+        width     = 3.0
+    ]
+
+    /* ── MIDDLE ── */
+    S0_d [
+        label     = <<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="5">
+          <TR><TD BGCOLOR="#2D4A22" ALIGN="CENTER"><FONT COLOR="white"><B>PREPARATION &amp; PPE</B></FONT></TD></TR>
+          <TR><TD ALIGN="LEFT">
+            • Don PPE: gloves, gown, eye/face protection<BR ALIGN="LEFT"/>
+            • Prearrival huddle — assign team roles<BR ALIGN="LEFT"/>
+            • Activate trauma team notification<BR ALIGN="LEFT"/>
+            • Assess available resources (blood, OR, ICU)<BR ALIGN="LEFT"/>
+            • Review mechanism via MIST handover tool<BR ALIGN="LEFT"/>
+            • Airway cart, IV access, monitoring ready<BR ALIGN="LEFT"/>
+            • Activate MTP/MHP if major hemorrhage likely<BR ALIGN="LEFT"/>
+            • Designate team leader and scribe<BR ALIGN="LEFT"/>
+          </TD></TR>
+        </TABLE>>
+        shape     = plain
+        margin    = 0
+    ]
+
+    /* ── RIGHT ── */
+    S0_i [
+        label     = "[ IMAGE PLACEHOLDER ]\n\nTrauma bay setup:\nTeam in PPE surrounding\nbay; equipment layout;\nrole assignment diagram"
+        shape     = rect
+        style     = "dashed,filled"
+        fillcolor = "#E8EAF6"
+        fontcolor = "#37474F"
+        fontsize  = 9
+        width     = 3.0
+    ]
+
+    /* ═══════════════════════════════════════════════════════════════════
+       STEP x — EXSANGUINATION (EXTERNAL HEMORRHAGE CONTROL)
+    ═══════════════════════════════════════════════════════════════════ */
+
+    Sx [
+        label     = "x — EXSANGUINATION\nExternal Hemorrhage\nControl"
+        shape     = hexagon
+        fillcolor = "#B71C1C"
+        fontcolor = white
+        fontsize  = 11
+        fontname  = "Helvetica Neue Bold"
+        width     = 3.0
+    ]
+
+    Sx_d [
+        label     = <<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="5">
+          <TR><TD BGCOLOR="#B71C1C" ALIGN="CENTER"><FONT COLOR="white"><B>x — EXSANGUINATION CONTROL</B></FONT></TD></TR>
+          <TR><TD ALIGN="LEFT">
+            <B>Assess:</B> Visible life-threatening external bleeding<BR ALIGN="LEFT"/>
+            ↳ Extremity wounds, scalp, junctional zones<BR ALIGN="LEFT"/>
+            <BR ALIGN="LEFT"/>
+            <B>Interventions (apply immediately):</B><BR ALIGN="LEFT"/>
+            • Direct pressure — first-line for all wounds<BR ALIGN="LEFT"/>
+            • Tourniquet (TQ) — proximal extremity; note time<BR ALIGN="LEFT"/>
+            • Wound packing with hemostatic gauze (junctional)<BR ALIGN="LEFT"/>
+            • Pelvic binder — suspected pelvic ring disruption<BR ALIGN="LEFT"/>
+            • Sutures/clips — scalp lacerations<BR ALIGN="LEFT"/>
+            • Resuscitative Endovascular Balloon Occlusion<BR ALIGN="LEFT"/>
+              of the Aorta (REBOA) — if available, Zone III/I<BR ALIGN="LEFT"/>
+            <BR ALIGN="LEFT"/>
+            <B>Key principle:</B> Control exsanguination BEFORE<BR ALIGN="LEFT"/>
+            airway management in actively bleeding patients<BR ALIGN="LEFT"/>
+          </TD></TR>
+        </TABLE>>
+        shape     = plain
+        margin    = 0
+    ]
+
+    Sx_i [
+        label     = "[ IMAGE PLACEHOLDER ]\n\nTourniquet application\nto proximal thigh;\nwound packing technique;\npelvic binder placement"
+        shape     = rect
+        style     = "dashed,filled"
+        fillcolor = "#FFEBEE"
+        fontcolor = "#37474F"
+        fontsize  = 9
+        width     = 3.0
+    ]
+
+    /* ═══════════════════════════════════════════════════════════════════
+       STEP A — AIRWAY WITH C-SPINE PROTECTION
+    ═══════════════════════════════════════════════════════════════════ */
+
+    SA [
+        label     = "A — AIRWAY\n+ C-Spine Protection"
+        shape     = hexagon
+        fillcolor = "#E65100"
+        fontcolor = white
+        fontsize  = 11
+        fontname  = "Helvetica Neue Bold"
+        width     = 3.0
+    ]
+
+    SA_dec [
+        label     = "Airway\nPatent?"
+        shape     = diamond
+        fillcolor = "#FFE0B2"
+        fontcolor = "#BF360C"
+        fontsize  = 10
+        fontname  = "Helvetica Neue Bold"
+        width     = 2.2
+    ]
+
+    SA_basic [
+        label     = "BASIC AIRWAY\nManeuvers"
+        shape     = rect
+        fillcolor = "#FF8F00"
+        fontcolor = white
+        fontsize  = 10
+        width     = 2.5
+    ]
+
+    SA_defin [
+        label     = "DEFINITIVE AIRWAY\nRequired?"
+        shape     = diamond
+        fillcolor = "#FFE0B2"
+        fontcolor = "#BF360C"
+        fontsize  = 10
+        fontname  = "Helvetica Neue Bold"
+        width     = 2.5
+    ]
+
+    SA_rsi [
+        label     = "RSI / Surgical\nAirway"
+        shape     = rect
+        fillcolor = "#D84315"
+        fontcolor = white
+        fontsize  = 10
+        width     = 2.2
+    ]
+
+    SA_d [
+        label     = <<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="5">
+          <TR><TD BGCOLOR="#E65100" ALIGN="CENTER"><FONT COLOR="white"><B>A — AIRWAY MANAGEMENT</B></FONT></TD></TR>
+          <TR><TD ALIGN="LEFT">
+            <B>Assessment:</B><BR ALIGN="LEFT"/>
+            • Talk to patient — if they respond clearly, airway intact<BR ALIGN="LEFT"/>
+            • Look: agitation, cyanosis, accessory muscle use<BR ALIGN="LEFT"/>
+            • Listen: stridor, gurgling, silence (apnea)<BR ALIGN="LEFT"/>
+            • Check: blood, vomit, teeth, foreign body, facial trauma<BR ALIGN="LEFT"/>
+            • Thermal/inhalation injury signs<BR ALIGN="LEFT"/>
+            <BR ALIGN="LEFT"/>
+            <B>Basic maneuvers (C-spine in-line):</B><BR ALIGN="LEFT"/>
+            • Chin lift / jaw thrust (avoid head-tilt in trauma)<BR ALIGN="LEFT"/>
+            • Suction — clear oropharynx<BR ALIGN="LEFT"/>
+            • Oropharyngeal airway (OPA) — unconscious, no gag<BR ALIGN="LEFT"/>
+            • Nasopharyngeal airway (NPA) — conscious/semi<BR ALIGN="LEFT"/>
+            • Supraglottic device (LMA) — bridge/rescue<BR ALIGN="LEFT"/>
+            <BR ALIGN="LEFT"/>
+            <B>Definitive airway indications:</B><BR ALIGN="LEFT"/>
+            • GCS ≤8 / apnea / airway not maintainable<BR ALIGN="LEFT"/>
+            • Anticipated loss (burns, expanding hematoma)<BR ALIGN="LEFT"/>
+            • Orotracheal RSI — preferred method<BR ALIGN="LEFT"/>
+            • Video laryngoscopy — recommended<BR ALIGN="LEFT"/>
+            • Bougie — have immediately available<BR ALIGN="LEFT"/>
+            • Surgical airway (cricothyrotomy) — cannot intubate<BR ALIGN="LEFT"/>
+            <BR ALIGN="LEFT"/>
+            <B>C-Spine:</B> Maintain in-line stabilisation throughout<BR ALIGN="LEFT"/>
+            Post-intubation: confirm with ETCO2 + CXR<BR ALIGN="LEFT"/>
+          </TD></TR>
+        </TABLE>>
+        shape     = plain
+        margin    = 0
+    ]
+
+    SA_i [
+        label     = "[ IMAGE PLACEHOLDER ]\n\nJaw thrust with\nin-line C-spine;\nvideo laryngoscopy\nfor RSI; surgical\ncricothyrotomy kit"
+        shape     = rect
+        style     = "dashed,filled"
+        fillcolor = "#FFF3E0"
+        fontcolor = "#37474F"
+        fontsize  = 9
+        width     = 3.0
+    ]
+
+    /* ═══════════════════════════════════════════════════════════════════
+       STEP B — BREATHING & VENTILATION
+    ═══════════════════════════════════════════════════════════════════ */
+
+    SB [
+        label     = "B — BREATHING\n& Ventilation"
+        shape     = hexagon
+        fillcolor = "#1565C0"
+        fontcolor = white
+        fontsize  = 11
+        fontname  = "Helvetica Neue Bold"
+        width     = 3.0
+    ]
+
+    SB_dec [
+        label     = "Immediate\nLife-Threat?"
+        shape     = diamond
+        fillcolor = "#BBDEFB"
+        fontcolor = "#0D47A1"
+        fontsize  = 10
+        fontname  = "Helvetica Neue Bold"
+        width     = 2.3
+    ]
+
+    SB_tx [
+        label     = "TREAT IMMEDIATELY\n(Tension / Open / Flail)"
+        shape     = rect
+        fillcolor = "#0D47A1"
+        fontcolor = white
+        fontsize  = 10
+        width     = 2.8
+    ]
+
+    SB_d [
+        label     = <<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="5">
+          <TR><TD BGCOLOR="#1565C0" ALIGN="CENTER"><FONT COLOR="white"><B>B — BREATHING ASSESSMENT &amp; MANAGEMENT</B></FONT></TD></TR>
+          <TR><TD ALIGN="LEFT">
+            <B>Assessment (LOOK / LISTEN / FEEL):</B><BR ALIGN="LEFT"/>
+            • Expose chest fully — compare both sides<BR ALIGN="LEFT"/>
+            • RR: normal 12–20 /min; tachypnea &gt;20 = concern<BR ALIGN="LEFT"/>
+            • SpO2 — target ≥94% (trauma); 88–92% in COPD<BR ALIGN="LEFT"/>
+            • Percussion: hyper-resonance (PTX) / dullness (HTX)<BR ALIGN="LEFT"/>
+            • Auscultate: equal air entry bilaterally<BR ALIGN="LEFT"/>
+            • Tracheal position, JVD, chest wall motion/symmetry<BR ALIGN="LEFT"/>
+            <BR ALIGN="LEFT"/>
+            <B>Immediate life-threats — treat when found:</B><BR ALIGN="LEFT"/>
+            1. Tension Pneumothorax<BR ALIGN="LEFT"/>
+               → Needle decompression 2nd ICS MCL (or 4th ICS AAL)<BR ALIGN="LEFT"/>
+               → Finger/tube thoracostomy; CXD tube 4th ICS<BR ALIGN="LEFT"/>
+            2. Open (Sucking) Chest Wound<BR ALIGN="LEFT"/>
+               → 3-sided occlusive dressing; later chest drain<BR ALIGN="LEFT"/>
+            3. Massive Haemothorax<BR ALIGN="LEFT"/>
+               → Large-bore chest drain 4th/5th ICS; IV access<BR ALIGN="LEFT"/>
+            4. Flail Chest + Pulmonary Contusion<BR ALIGN="LEFT"/>
+               → Oxygenation, analgesia, consider NIV/intubation<BR ALIGN="LEFT"/>
+            <BR ALIGN="LEFT"/>
+            <B>Ventilated patients:</B><BR ALIGN="LEFT"/>
+            • Confirm ETCO2 waveform post-intubation<BR ALIGN="LEFT"/>
+            • Low ETCO2 = hypovolaemia / displaced ETT<BR ALIGN="LEFT"/>
+            • Tidal volume 6–8 mL/kg IBW; avoid barotrauma<BR ALIGN="LEFT"/>
+          </TD></TR>
+        </TABLE>>
+        shape     = plain
+        margin    = 0
+    ]
+
+    SB_i [
+        label     = "[ IMAGE PLACEHOLDER ]\n\nNeedle decompression\n2nd ICS MCL; chest\ndrain insertion;\n3-sided dressing;\nflail segment"
+        shape     = rect
+        style     = "dashed,filled"
+        fillcolor = "#E3F2FD"
+        fontcolor = "#37474F"
+        fontsize  = 9
+        width     = 3.0
+    ]
+
+    /* ═══════════════════════════════════════════════════════════════════
+       STEP C — CIRCULATION & HEMORRHAGE CONTROL
+    ═══════════════════════════════════════════════════════════════════ */
+
+    SC [
+        label     = "C — CIRCULATION\n& Hemorrhage Control"
+        shape     = hexagon
+        fillcolor = "#880E4F"
+        fontcolor = white
+        fontsize  = 11
+        fontname  = "Helvetica Neue Bold"
+        width     = 3.0
+    ]
+
+    SC_dec [
+        label     = "Shock\nPresent?"
+        shape     = diamond
+        fillcolor = "#FCE4EC"
+        fontcolor = "#880E4F"
+        fontsize  = 10
+        fontname  = "Helvetica Neue Bold"
+        width     = 2.0
+    ]
+
+    SC_class [
+        label     = "CLASS\nHaemorrhage"
+        shape     = rect
+        fillcolor = "#AD1457"
+        fontcolor = white
+        fontsize  = 10
+        width     = 2.2
+    ]
+
+    SC_src [
+        label     = "SOURCE\nControl"
+        shape     = rect
+        fillcolor = "#6A1B4D"
+        fontcolor = white
+        fontsize  = 10
+        width     = 2.0
+    ]
+
+    SC_d [
+        label     = <<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="5">
+          <TR><TD BGCOLOR="#880E4F" ALIGN="CENTER"><FONT COLOR="white"><B>C — CIRCULATION ASSESSMENT &amp; RESUSCITATION</B></FONT></TD></TR>
+          <TR><TD ALIGN="LEFT">
+            <B>Signs of shock:</B><BR ALIGN="LEFT"/>
+            • HR &gt;100, RR &gt;20, CRT &gt;2s, cool/clammy<BR ALIGN="LEFT"/>
+            • SBP &lt;90 = LATE sign; don't wait for hypotension<BR ALIGN="LEFT"/>
+            • Altered mentation, decreased pulse pressure<BR ALIGN="LEFT"/>
+            • Urinary output &lt;0.5 mL/kg/hr<BR ALIGN="LEFT"/>
+            <BR ALIGN="LEFT"/>
+            <B>Haemorrhage Classification (approximate):</B><BR ALIGN="LEFT"/>
+            Class I  : &lt;750 mL (&lt;15%)   — minimal signs<BR ALIGN="LEFT"/>
+            Class II : 750–1500 mL (15–30%) — tachycardia<BR ALIGN="LEFT"/>
+            Class III: 1500–2000 mL (30–40%)— hypotension<BR ALIGN="LEFT"/>
+            Class IV : &gt;2000 mL (&gt;40%)  — life-threatening<BR ALIGN="LEFT"/>
+            <BR ALIGN="LEFT"/>
+            <B>Source identification ("5 Boxes"):</B><BR ALIGN="LEFT"/>
+            Chest | Abdomen | Pelvis | Long bones | "Floor"<BR ALIGN="LEFT"/>
+            → eFAST, Pelvis XR, Long bone XR<BR ALIGN="LEFT"/>
+            <BR ALIGN="LEFT"/>
+            <B>Resuscitation — Damage Control:</B><BR ALIGN="LEFT"/>
+            • 2 large-bore IVs (14–16G) or IO access<BR ALIGN="LEFT"/>
+            • Balanced haemostatic resus: pRBC:FFP:PLT = 1:1:1<BR ALIGN="LEFT"/>
+            • Whole blood preferred if available<BR ALIGN="LEFT"/>
+            • TXA ≤3 hr from injury: 1g IV over 10 min loading<BR ALIGN="LEFT"/>
+            • Permissive hypotension: SBP 80–90 mmHg (no TBI)<BR ALIGN="LEFT"/>
+            • Activate MTP early; avoid crystalloid excess<BR ALIGN="LEFT"/>
+            • Calcium supplementation with massive transfusion<BR ALIGN="LEFT"/>
+            <BR ALIGN="LEFT"/>
+            <B>Source control options:</B><BR ALIGN="LEFT"/>
+            • External: TQ, packing, pelvic binder<BR ALIGN="LEFT"/>
+            • OR: damage control laparotomy/thoracotomy<BR ALIGN="LEFT"/>
+            • IR: angioembolisation (pelvic, solid organ)<BR ALIGN="LEFT"/>
+            • REBOA as bridge to definitive control<BR ALIGN="LEFT"/>
+            <BR ALIGN="LEFT"/>
+            <B>Non-haemorrhagic shock:</B><BR ALIGN="LEFT"/>
+            Tension PTX → decompress | Tamponade → FAST → EDEP<BR ALIGN="LEFT"/>
+            Neurogenic → fluids + vasopressors after excluding bleed<BR ALIGN="LEFT"/>
+          </TD></TR>
+        </TABLE>>
+        shape     = plain
+        margin    = 0
+    ]
+
+    SC_i [
+        label     = "[ IMAGE PLACEHOLDER ]\n\nTwo large-bore IVs;\neFAST probe positions;\npelvic binder;\nblood product ratios\ninfographic"
+        shape     = rect
+        style     = "dashed,filled"
+        fillcolor = "#FCE4EC"
+        fontcolor = "#37474F"
+        fontsize  = 9
+        width     = 3.0
+    ]
+
+    /* ═══════════════════════════════════════════════════════════════════
+       STEP D — DISABILITY (NEUROLOGICAL)
+    ═══════════════════════════════════════════════════════════════════ */
+
+    SD [
+        label     = "D — DISABILITY\nNeurological Status"
+        shape     = hexagon
+        fillcolor = "#4A148C"
+        fontcolor = white
+        fontsize  = 11
+        fontname  = "Helvetica Neue Bold"
+        width     = 3.0
+    ]
+
+    SD_dec [
+        label     = "GCS ≤8 or\nLateralising?"
+        shape     = diamond
+        fillcolor = "#EDE7F6"
+        fontcolor = "#4A148C"
+        fontsize  = 10
+        fontname  = "Helvetica Neue Bold"
+        width     = 2.3
+    ]
+
+    SD_act [
+        label     = "Protect Airway\nNeuro Consult"
+        shape     = rect
+        fillcolor = "#6A1B9A"
+        fontcolor = white
+        fontsize  = 10
+        width     = 2.3
+    ]
+
+    SD_d [
+        label     = <<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="5">
+          <TR><TD BGCOLOR="#4A148C" ALIGN="CENTER"><FONT COLOR="white"><B>D — DISABILITY: NEUROLOGICAL ASSESSMENT</B></FONT></TD></TR>
+          <TR><TD ALIGN="LEFT">
+            <B>Rapid neuro exam (AVPU → GCS):</B><BR ALIGN="LEFT"/>
+            A — Alert; V — Voice; P — Pain; U — Unresponsive<BR ALIGN="LEFT"/>
+            <BR ALIGN="LEFT"/>
+            <B>Glasgow Coma Scale (GCS) 3–15:</B><BR ALIGN="LEFT"/>
+            Eyes:   4-Spontaneous / 3-Voice / 2-Pain / 1-None<BR ALIGN="LEFT"/>
+            Verbal: 5-Oriented / 4-Confused / 3-Words / 2-Sounds / 1-None<BR ALIGN="LEFT"/>
+            Motor:  6-Obeys / 5-Localises / 4-Withdraws / 3-Flexion<BR ALIGN="LEFT"/>
+                    2-Extension / 1-None<BR ALIGN="LEFT"/>
+            Motor GCS &lt;6 = unable to follow commands (field triage)<BR ALIGN="LEFT"/>
+            <BR ALIGN="LEFT"/>
+            <B>Pupil exam:</B><BR ALIGN="LEFT"/>
+            • Size, symmetry, reactivity bilaterally<BR ALIGN="LEFT"/>
+            • Unilateral fixed dilated = herniation until proven otherwise<BR ALIGN="LEFT"/>
+            <BR ALIGN="LEFT"/>
+            <B>Lateralising signs:</B><BR ALIGN="LEFT"/>
+            • Asymmetric limb movement / posturing<BR ALIGN="LEFT"/>
+            • Indicates structural CNS injury<BR ALIGN="LEFT"/>
+            <BR ALIGN="LEFT"/>
+            <B>Management priorities:</B><BR ALIGN="LEFT"/>
+            • Prevent secondary brain injury (hypoxia + hypotension)<BR ALIGN="LEFT"/>
+            • Maintain SpO2 ≥94%, SBP ≥110 mmHg in isolated TBI<BR ALIGN="LEFT"/>
+            • GCS ≤8 → definitive airway (if not already secured)<BR ALIGN="LEFT"/>
+            • Hyperventilation ONLY for impending herniation (transient)<BR ALIGN="LEFT"/>
+            • Blood glucose check — correct hypoglycaemia<BR ALIGN="LEFT"/>
+            • Avoid hyperglycaemia<BR ALIGN="LEFT"/>
+            • Neurosurgery activation: GCS drop, haematoma on imaging<BR ALIGN="LEFT"/>
+          </TD></TR>
+        </TABLE>>
+        shape     = plain
+        margin    = 0
+    ]
+
+    SD_i [
+        label     = "[ IMAGE PLACEHOLDER ]\n\nGCS scoring table;\npupil assessment\ndiagram; AVPU\nresponse scale"
+        shape     = rect
+        style     = "dashed,filled"
+        fillcolor = "#EDE7F6"
+        fontcolor = "#37474F"
+        fontsize  = 9
+        width     = 3.0
+    ]
+
+    /* ═══════════════════════════════════════════════════════════════════
+       STEP E — EXPOSURE & ENVIRONMENTAL CONTROL
+    ═══════════════════════════════════════════════════════════════════ */
+
+    SE [
+        label     = "E — EXPOSURE\n& Environment"
+        shape     = hexagon
+        fillcolor = "#1B5E20"
+        fontcolor = white
+        fontsize  = 11
+        fontname  = "Helvetica Neue Bold"
+        width     = 3.0
+    ]
+
+    SE_d [
+        label     = <<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="5">
+          <TR><TD BGCOLOR="#1B5E20" ALIGN="CENTER"><FONT COLOR="white"><B>E — EXPOSURE &amp; ENVIRONMENT</B></FONT></TD></TR>
+          <TR><TD ALIGN="LEFT">
+            <B>Exposure:</B><BR ALIGN="LEFT"/>
+            • Remove all clothing (cut if necessary)<BR ALIGN="LEFT"/>
+            • Log-roll with C-spine control → inspect back<BR ALIGN="LEFT"/>
+            • Perineum, axillae, gluteal folds examined<BR ALIGN="LEFT"/>
+            • "The Floor" — check beneath patient for hidden bleeding<BR ALIGN="LEFT"/>
+            • Remove penetrating objects only in controlled setting<BR ALIGN="LEFT"/>
+            <BR ALIGN="LEFT"/>
+            <B>Environmental control (prevent hypothermia):</B><BR ALIGN="LEFT"/>
+            • Core temp target: &gt;35°C (lethal triad: coagulopathy<BR ALIGN="LEFT"/>
+              + acidosis + hypothermia)<BR ALIGN="LEFT"/>
+            • Warm blankets immediately after exam<BR ALIGN="LEFT"/>
+            • Warmed IV fluids and blood products<BR ALIGN="LEFT"/>
+            • Convection warming devices (Bair Hugger)<BR ALIGN="LEFT"/>
+            • Warm ambient room temperature<BR ALIGN="LEFT"/>
+            • Active rewarming for T &lt;32°C<BR ALIGN="LEFT"/>
+            <BR ALIGN="LEFT"/>
+            <B>Log-roll technique:</B><BR ALIGN="LEFT"/>
+            • Minimum 3 people + leader controlling head/C-spine<BR ALIGN="LEFT"/>
+            • Spine board removed once safe to do so<BR ALIGN="LEFT"/>
+          </TD></TR>
+        </TABLE>>
+        shape     = plain
+        margin    = 0
+    ]
+
+    SE_i [
+        label     = "[ IMAGE PLACEHOLDER ]\n\nLog-roll technique\nwith C-spine control;\nwarming blanket\napplication; back\ninspection"
+        shape     = rect
+        style     = "dashed,filled"
+        fillcolor = "#E8F5E9"
+        fontcolor = "#37474F"
+        fontsize  = 9
+        width     = 3.0
+    ]
+
+    /* ═══════════════════════════════════════════════════════════════════
+       ADJUNCTS TO PRIMARY SURVEY
+    ═══════════════════════════════════════════════════════════════════ */
+
+    ADJ [
+        label     = "ADJUNCTS TO\nPRIMARY SURVEY"
+        shape     = rect
+        fillcolor = "#01579B"
+        fontcolor = white
+        fontsize  = 11
+        fontname  = "Helvetica Neue Bold"
+        width     = 3.0
+        style     = "filled,rounded"
+    ]
+
+    ADJ_d [
+        label     = <<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="5">
+          <TR><TD BGCOLOR="#01579B" ALIGN="CENTER"><FONT COLOR="white"><B>ADJUNCTS TO PRIMARY SURVEY</B></FONT></TD></TR>
+          <TR><TD ALIGN="LEFT">
+            <B>Monitoring (continuous):</B><BR ALIGN="LEFT"/>
+            • ECG — arrhythmia, blunt cardiac injury<BR ALIGN="LEFT"/>
+            • Pulse oximetry (SpO2)<BR ALIGN="LEFT"/>
+            • Capnography (ETCO2) — post-intubation<BR ALIGN="LEFT"/>
+            • Blood pressure (arterial line preferred in instability)<BR ALIGN="LEFT"/>
+            • Temperature<BR ALIGN="LEFT"/>
+            • Urinary catheter — UO 0.5 mL/kg/hr target<BR ALIGN="LEFT"/>
+            • Gastric decompression — NG or OG tube<BR ALIGN="LEFT"/>
+            <BR ALIGN="LEFT"/>
+            <B>Imaging:</B><BR ALIGN="LEFT"/>
+            • CXR — haemo/pneumothorax, mediastinum, lines<BR ALIGN="LEFT"/>
+            • Pelvis XR — pelvic ring disruption<BR ALIGN="LEFT"/>
+            • eFAST — pericardial, peritoneal, pleural fluid<BR ALIGN="LEFT"/>
+            • CECT whole body ("pan-scan") when stabilised<BR ALIGN="LEFT"/>
+            <BR ALIGN="LEFT"/>
+            <B>Lab:</B><BR ALIGN="LEFT"/>
+            • ABG — pH, lactate, base deficit, PaO2<BR ALIGN="LEFT"/>
+            • FBC, coagulation (PT, APTT, fibrinogen), TEG/ROTEM<BR ALIGN="LEFT"/>
+            • Type &amp; crossmatch / group &amp; screen<BR ALIGN="LEFT"/>
+            • β-hCG (all reproductive-age females)<BR ALIGN="LEFT"/>
+            • BMP, troponin, toxicology screen<BR ALIGN="LEFT"/>
+          </TD></TR>
+        </TABLE>>
+        shape     = plain
+        margin    = 0
+    ]
+
+    ADJ_i [
+        label     = "[ IMAGE PLACEHOLDER ]\n\neFAST probe positions\n(pericardial, hepato-\nrenal, spleno-renal,\npelvic, pleural);\nCXR example"
+        shape     = rect
+        style     = "dashed,filled"
+        fillcolor = "#E1F5FE"
+        fontcolor = "#37474F"
+        fontsize  = 9
+        width     = 3.0
+    ]
+
+    /* ═══════════════════════════════════════════════════════════════════
+       REEVALUATION LOOP
+    ═══════════════════════════════════════════════════════════════════ */
+
+    REEVAL [
+        label     = "REEVALUATE\nRepeat xABCDE"
+        shape     = ellipse
+        fillcolor = "#F57F17"
+        fontcolor = white
+        fontsize  = 11
+        fontname  = "Helvetica Neue Bold"
+        width     = 2.8
+        style     = "filled"
+    ]
+
+    REEVAL_d [
+        label     = <<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="5">
+          <TR><TD BGCOLOR="#F57F17" ALIGN="CENTER"><FONT COLOR="white"><B>REEVALUATION — CRITICAL STEP</B></FONT></TD></TR>
+          <TR><TD ALIGN="LEFT">
+            <B>Reevaluate continuously throughout primary survey</B><BR ALIGN="LEFT"/>
+            <BR ALIGN="LEFT"/>
+            • Repeat full xABCDE when clinical status changes<BR ALIGN="LEFT"/>
+            • Deterioration may indicate new/missed injury<BR ALIGN="LEFT"/>
+            • Serial GCS, vital signs, lactate clearance<BR ALIGN="LEFT"/>
+            • Reassess response to resuscitation<BR ALIGN="LEFT"/>
+            • Update team with huddle/time-out<BR ALIGN="LEFT"/>
+            • If condition worsens → return to "x" (haemorrhage)<BR ALIGN="LEFT"/>
+            <BR ALIGN="LEFT"/>
+            <B>Specific reevaluation triggers:</B><BR ALIGN="LEFT"/>
+            • Failure to respond to fluid resuscitation<BR ALIGN="LEFT"/>
+            • Sudden haemodynamic deterioration<BR ALIGN="LEFT"/>
+            • Worsening GCS or new pupil changes<BR ALIGN="LEFT"/>
+            • Increasing ventilatory requirements<BR ALIGN="LEFT"/>
+            • Rising airway pressures in ventilated patient<BR ALIGN="LEFT"/>
+          </TD></TR>
+        </TABLE>>
+        shape     = plain
+        margin    = 0
+    ]
+
+    REEVAL_i [
+        label     = "[ IMAGE PLACEHOLDER ]\n\nTeam huddle around\npatient; vital signs\ntrend graph; serial\nassessment checklist"
+        shape     = rect
+        style     = "dashed,filled"
+        fillcolor = "#FFF8E1"
+        fontcolor = "#37474F"
+        fontsize  = 9
+        width     = 3.0
+    ]
+
+    /* ═══════════════════════════════════════════════════════════════════
+       SECONDARY SURVEY / TRANSFER DECISION
+    ═══════════════════════════════════════════════════════════════════ */
+
+    SS [
+        label     = "SECONDARY SURVEY\nHead-to-Toe +\nFull History"
+        shape     = rect
+        fillcolor = "#37474F"
+        fontcolor = white
+        fontsize  = 11
+        fontname  = "Helvetica Neue Bold"
+        width     = 3.0
+        style     = "filled,rounded"
+    ]
+
+    SS_d [
+        label     = <<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="5">
+          <TR><TD BGCOLOR="#37474F" ALIGN="CENTER"><FONT COLOR="white"><B>SECONDARY SURVEY</B></FONT></TD></TR>
+          <TR><TD ALIGN="LEFT">
+            <B>Initiate ONLY after primary survey stabilisation</B><BR ALIGN="LEFT"/>
+            <BR ALIGN="LEFT"/>
+            <B>History — SAMPLE:</B><BR ALIGN="LEFT"/>
+            S — Symptoms / Signs<BR ALIGN="LEFT"/>
+            A — Allergies<BR ALIGN="LEFT"/>
+            M — Medications (anticoagulants, steroids)<BR ALIGN="LEFT"/>
+            P — Past medical/surgical history<BR ALIGN="LEFT"/>
+            L — Last meal (aspiration risk)<BR ALIGN="LEFT"/>
+            E — Events leading to injury / mechanism<BR ALIGN="LEFT"/>
+            <BR ALIGN="LEFT"/>
+            <B>Head-to-toe physical exam:</B><BR ALIGN="LEFT"/>
+            Head → Face → Neck → Chest → Abdomen<BR ALIGN="LEFT"/>
+            → Pelvis → Perineum → Extremities → Back<BR ALIGN="LEFT"/>
+            <BR ALIGN="LEFT"/>
+            <B>Transfer decision:</B><BR ALIGN="LEFT"/>
+            • Consider if injuries exceed institutional capability<BR ALIGN="LEFT"/>
+            • Use S-xABCDE-BAR handover tool for communication<BR ALIGN="LEFT"/>
+            • Arrange definitive care (OR / ICU / neurosurgery)<BR ALIGN="LEFT"/>
+          </TD></TR>
+        </TABLE>>
+        shape     = plain
+        margin    = 0
+    ]
+
+    SS_i [
+        label     = "[ IMAGE PLACEHOLDER ]\n\nSystematic head-to-toe\nexam sequence diagram;\nSAMPLE history card;\nS-xABCDE-BAR\ntransfer tool"
+        shape     = rect
+        style     = "dashed,filled"
+        fillcolor = "#ECEFF1"
+        fontcolor = "#37474F"
+        fontsize  = 9
+        width     = 3.0
+    ]
+
+    /* ═══════════════════════════════════════════════════════════════════
+       DEFINITIVE CARE (TERMINAL NODE)
+    ═══════════════════════════════════════════════════════════════════ */
+
+    DEFCARE [
+        label     = "DEFINITIVE CARE\nOR / ICU / Transfer"
+        shape     = octagon
+        fillcolor = "#2D4A22"
+        fontcolor = white
+        fontsize  = 11
+        fontname  = "Helvetica Neue Bold"
+        width     = 3.0
+    ]
+
+    /* ═══════════════════════════════════════════════════════════════════
+       RANK ALIGNMENT — INVISIBLE SPACER EDGES TO ENFORCE COLUMNS
+       Each "rank" block forces left/middle/right on same horizontal band
+    ═══════════════════════════════════════════════════════════════════ */
+
+    /* invisible linking node for column alignment */
+    node [shape=point width=0 height=0 style=invis label=""]
+    r0L; r0M; r0R
+    r1L; r1M; r1R
+    r2L; r2M; r2R
+    r3L; r3M; r3R
+    r4L; r4M; r4R
+    r5L; r5M; r5R
+    r6L; r6M; r6R
+    r7L; r7M; r7R
+    r8L; r8M; r8R
+
+    /* same-rank groupings */
+    { rank=same; hdr_L; hdr_M; hdr_R }
+    { rank=same; S0;    S0_d;  S0_i  }
+    { rank=same; Sx;    Sx_d;  Sx_i  }
+    { rank=same; SA;    SA_d;  SA_i  }
+    { rank=same; SB;    SB_d;  SB_i  }
+    { rank=same; SC;    SC_d;  SC_i  }
+    { rank=same; SD;    SD_d;  SD_i  }
+    { rank=same; SE;    SE_d;  SE_i  }
+    { rank=same; ADJ;   ADJ_d; ADJ_i }
+    { rank=same; REEVAL; REEVAL_d; REEVAL_i }
+    { rank=same; SS;    SS_d;  SS_i  }
+    { rank=same; DEFCARE }
+
+    /* ═══════════════════════════════════════════════════════════════════
+       LEFT COLUMN — MAIN ALGORITHM FLOW EDGES
+    ═══════════════════════════════════════════════════════════════════ */
+
+    hdr_L -> S0      [ style=invis ]
+    S0    -> Sx      [ label=" Life-threatening\n bleed?" color="#B71C1C" fontcolor="#B71C1C" penwidth=2 ]
+    Sx    -> SA      [ label=" Controlled" color="#2E7D32" penwidth=2 ]
+    SA    -> SA_dec  [ color="#E65100" penwidth=1.5 ]
+    SA_dec -> SA_basic [ label="No" color="#E65100" ]
+    SA_dec -> SA_defin [ label="Yes → Open" color="#2E7D32" ]
+    SA_basic -> SA_defin [ color="#888888" ]
+    SA_defin -> SA_rsi  [ label="Yes" color="#D84315" ]
+    SA_defin -> SB      [ label="No → ETT\nconfirmed" color="#2E7D32" ]
+    SA_rsi  -> SB       [ color="#2E7D32" ]
+    SB    -> SB_dec  [ color="#1565C0" penwidth=1.5 ]
+    SB_dec -> SB_tx  [ label="Yes" color="#D32F2F" ]
+    SB_dec -> SC     [ label="No" color="#2E7D32" ]
+    SB_tx  -> SC     [ color="#2E7D32" ]
+    SC    -> SC_dec  [ color="#880E4F" penwidth=1.5 ]
+    SC_dec -> SC_class [ label="Yes" color="#AD1457" ]
+    SC_class -> SC_src [ color="#6A1B4D" ]
+    SC_src -> SD     [ color="#2E7D32" ]
+    SC_dec -> SD     [ label="No" color="#2E7D32" ]
+    SD    -> SD_dec  [ color="#4A148C" penwidth=1.5 ]
+    SD_dec -> SD_act [ label="Yes" color="#6A1B9A" ]
+    SD_dec -> SE     [ label="No" color="#2E7D32" ]
+    SD_act -> SE     [ color="#2E7D32" ]
+    SE    -> ADJ     [ color="#01579B" penwidth=1.5 ]
+    ADJ   -> REEVAL  [ color="#F57F17" penwidth=2 ]
+    REEVAL -> SS     [ label=" Vitals\nstabilising" color="#37474F" penwidth=2 ]
+    REEVAL -> Sx     [ label=" Deterioration\n→ restart" color="#B71C1C" style=dashed penwidth=1.5 constraint=false ]
+    SS    -> DEFCARE [ color="#2D4A22" penwidth=2 ]
+
+    /* ═══════════════════════════════════════════════════════════════════
+       HORIZONTAL CONNECTORS (LEFT → MIDDLE → RIGHT, invisible weight-0)
+       These create the 3-column visual without disrupting vertical flow
+    ═══════════════════════════════════════════════════════════════════ */
+
+    hdr_L -> hdr_M   [ style=invis weight=10 ]
+    hdr_M -> hdr_R   [ style=invis weight=10 ]
+
+    S0    -> S0_d    [ style=invis weight=10 ]
+    S0_d  -> S0_i    [ style=invis weight=10 ]
+
+    Sx    -> Sx_d    [ style=invis weight=10 ]
+    Sx_d  -> Sx_i    [ style=invis weight=10 ]
+
+    SA    -> SA_d    [ style=invis weight=10 ]
+    SA_d  -> SA_i    [ style=invis weight=10 ]
+
+    SB    -> SB_d    [ style=invis weight=10 ]
+    SB_d  -> SB_i    [ style=invis weight=10 ]
+
+    SC    -> SC_d    [ style=invis weight=10 ]
+    SC_d  -> SC_i    [ style=invis weight=10 ]
+
+    SD    -> SD_d    [ style=invis weight=10 ]
+    SD_d  -> SD_i    [ style=invis weight=10 ]
+
+    SE    -> SE_d    [ style=invis weight=10 ]
+    SE_d  -> SE_i    [ style=invis weight=10 ]
+
+    ADJ   -> ADJ_d   [ style=invis weight=10 ]
+    ADJ_d -> ADJ_i   [ style=invis weight=10 ]
+
+    REEVAL -> REEVAL_d  [ style=invis weight=10 ]
+    REEVAL_d -> REEVAL_i [ style=invis weight=10 ]
+
+    SS    -> SS_d    [ style=invis weight=10 ]
+    SS_d  -> SS_i    [ style=invis weight=10 ]
+
+} /* end digraph */

@@ -1,0 +1,19 @@
+= xABCDE
+
+[.subtitle]
+****
+An approach to traumatic patients based on the ACP Guidelines of ATLS.
+****
+
+The following graph-based algorithm is built from the **ACP 11^th edition xABCDE ATLS Guidelines**; the algorithm is composed of 3 columnar components; the first column represents a brief about the stage of the resuscitation; the second column demonstrates the detailed steps in a particular phase, and the third column displays illustrating of the maneuvers involved in the current phase <<Fig-1.1,[Fig-1.1]>>.
+
+The **ACC/AHA ACLS Guidelines** could be further interleaved and taken out from the Airway, breathing and circulation components.
+
+
+++++
+<a href="_images/xabcde/atls.svg" class="glightbox zoom-img">
+  <img src="_images/xabcde/atls.svg" alt="xABCDE Algorithm" width="500">
+</a>
+++++
+[.subtite]
+[[Fig-1.1]] The ATLS Algorithm based on the ACP 11^th^ edition.
