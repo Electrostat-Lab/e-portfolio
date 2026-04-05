@@ -52,7 +52,12 @@ Full routine laboratory studies was carried-out after the critical care admissio
 | CT Timeline | Image | Findings 
 
 a| Day of accident 
-a| image:tbi-0/dai-ct-1.png[CT,width="",height=""] 
+a| 
+++++
+<a href="_images/tbi-0/dai-ct-1.png" class="glightbox zoom-img">
+  <img src="_images/tbi-0/dai-ct-1.png" alt="CT Scan" width="300">
+</a>
+++++
 a| 
 * Brain Meninges: increased signal
 intensity along the falx cereberi and the
@@ -79,7 +84,12 @@ cerebri and tentorium cerebelli likely
 subarachinoid bleeders. 
 
 a| Day of admission (second day after injury) 
-a| image:tbi-0/dai-ct-2.png[CT,width="",height=""] 
+a| 
+++++
+<a href="_images/tbi-0/dai-ct-2.png" class="glightbox zoom-img">
+  <img src="_images/tbi-0/dai-ct-2.png" alt="CT Scan" width="300">
+</a>
+++++
 a| 
 * Calvaria: right side frontoparietal
 swelling likely subgaleal hematoma.
@@ -113,7 +123,19 @@ a|
 a| Unremarkable findings.
 
 a| Last day from admission day
-a| image:tbi-0/dai-us-1.png[US-1,width="",height=""] image:tbi-0/dai-us-2.png[US-2,width="",height=""] 
+a| 
+++++
+<a href="_images/tbi-0/dai-us-1.png" class="glightbox zoom-img">
+  <img src="_images/tbi-0/dai-us-1.png" alt="USS" width="300">
+</a>
+++++
+
+++++
+<a href="_images/tbi-0/dai-us-2.png" class="glightbox zoom-img">
+  <img src="_images/tbi-0/dai-us-2.png" alt="USS-2" width="300">
+</a>
+++++
+
 a| 
 * Impression: 
 ** Hepatic focal lesion at the hepatic
@@ -383,19 +405,35 @@ Liver and renal function tests and the total creatine kinase levels are highly s
 
 == Thumbnails:
 
-image:tbi-0/gcs-score-table.png[gcs-1,width="",height=""]
+++++
+<a href="_images/tbi-0/gcs-score-table.png" class="glightbox zoom-img">
+  <img src="_images/tbi-0/gcs-score-table.png" alt="GCS Score" width="300">
+</a>
+++++
 [.subtitle]
 [[Fig-1.1]] Fig-1.1 - Prognosis Reclaiming from the GCS-P Score (GCS-PA Charts), a simple graphical tool in the 3-dimensional vector-space.
 
-image:tbi-0/gcs-score-table-2.png[gcs-2,width="",height=""]
+++++
+<a href="_images/tbi-0/gcs-score-table-2.png" class="glightbox zoom-img">
+  <img src="_images/tbi-0/gcs-score-table-2.png" alt="GCS Score" width="300">
+</a>
+++++
 [.subtitle]
 [[Fig-1.2]] Fig-1.2 - GCS-PA combined with brain CT findings.
 
-image:tbi-0/red-nucleus.png[red,width="",height=""]
+++++
+<a href="_images/tbi-0/red-nucleus.png" class="glightbox zoom-img">
+  <img src="_images/tbi-0/red-nucleus.png" alt="Red Nucleus Pathway" width="300">
+</a>
+++++
 [.subtitle]
 [[Fig-2]] Fig-2 - The red nucleus cortical, spinal and cerebellar connections.
 
-image:tbi-0/oculo-sympathetic-pathway.png[pathway,width="",height=""]
+++++
+<a href="_images/tbi-0/oculo-sympathetic-pathway.png" class="glightbox zoom-img">
+  <img src="_images/tbi-0/oculo-sympathetic-pathway.png" alt="Pathway" width="300">
+</a>
+++++
 [.subtitle]
 [[Fig-3]] Fig-3 - The oculo-sympathetic pathway.
 

@@ -19,3 +19,5 @@ asciidoc:
     page-pagination: ''
     idprefix: ''
     stem: latexmath
+  extensions:
+    - asciidoctor-kroki

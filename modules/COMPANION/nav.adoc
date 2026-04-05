@@ -1,2 +1,3 @@
 * Clinical Companion
 ** xref:comp.adoc[The Clinical Companion Cheat Sheet]
+** xref:xabcde.adoc[ACP xABCDE Approach to traumatic injury]
