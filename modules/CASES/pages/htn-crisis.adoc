@@ -1,0 +1,204 @@
+= Hypertensive Crisis
+:description: A case report by Aya, Ahmed, Omar, and Pavly.
+:keywords: Case report, Hypertension, Diastolic Dysfunction, Diabetes Mellitus, Stroke, End organ damage, Peripheral arterial disease, Chronic kidney disease, Pneumonia, Critical care
+:page-layout: default
+
+[.subtitle]
+Management of Hypertensive Crisis with Co-morbidities by link:https://github.com/pavly-gerges[Pavly G.]
+
+== Keywords
+
+Case report — Hypertension — Diastolic Dysfunction — Diabetes Mellitus — Stroke — End organ damage — Peripheral arterial disease — Chronic kidney disease — Pneumonia — Critical care
+
+== Abstract
+
+This case report presents a case of hypertensive crisis accompanied by other co-morbidities; among which are the uncontrolled diabetes mellitus, the chronic kidney disease and pneumonia.
+The aim of the report is to guide the recognition and management of such a case according to the European Society of cardiology guidelines bearing in mind the co-morbidities.
+The case presentation and the clinical findings components collectively list down the indications for critical care admission, and establish a basis for the essential diagnostic assessments required for follow-up, and the therapeutic interventions required to limit the associated co-morbidities.
+Patient's timeline is essentially expanded into diagnostic assessment timeline and therapeutic intervention timeline, according to the critical care there weren't drastic changes in clinical findings requiring a standalone timeline table, however, chronological urine output and blood pressure findings are recorded in compact with the therapeutic interventions and the diagnostic findings.
+The follow-up and outcomes section summarizes the consultations taking place chronologically from the admission date to the discharge date and the way this affects the overall therapeutic indications and timeline.
+Eventually, the report terminates by introducing the discussion section, which introduces the rationale in dealing with hypertensive crises and common clinical pitfalls as take-away lessons.
+
+== Introduction
+
+This case represents a classical example of the consequences and risk factors of hypertensive crises.
+Together with the chronic uncontrolled diabetes as a co-morbidity, this further accelerates the atherosclerotic disease, and as a consequence of the vicious cycle of the over-stimulated Renin-Angiotensin-Aldosterone-ADH (RAAAS) axis, this complexity eventually leads to end-organ damage.
+The over-stimulated RAAAS axis is a consequence of the renovascular atherosclerotic disease, and the suppression of natriuretic factors (ANP, BNP, CNP).
+The fact that there is a threshold at which the compensatory RAAAS axis is volume-independent can be emphasized in this case ^<<ref1,[1]>>^.
+
+Both angiotensin-II and aldosterone have a synergistic direct mitogenic effect on vascular endothelial smooth muscles and myocardium through the AT-1 receptors and the Aldo receptors respectively leading to vascular endothelial and myocardial hypertrophy and remodelling, which accelerates the atherosclerotic disease on top of the vascular endothelial injury, and the lipoproteins deposition ^<<ref2,[2]>>^.
+
+Aldosterone is a potent mineralocorticoid that increases sodium reabsorption from the renal cortical collecting ducts.
+The electrical neutrality can be achieved by exchanging sodium with other positively charged ions, potassium and hydrogen ions.
+Consequently, increased aldosterone secretion may result in hypokalemia and metabolic alkalosis.
+The hemodynamic break point, which leads to the paradoxical effect of the compensatory renoprotective mechanisms (i.e, RAAAS axis) and the transmission of the systemic hypertension to the kidneys, could be attributed to the rise of the renal arteries blood pressure as a result of stenosis, and the rise of the systemic blood pressure well above the threshold from benign nephrosclerosis to malignant nephrosclerosis.
+
+== Case Presentation
+
+This 57-year-old male patient was presenting with dyspnea and orthopnea associated with productive cough, and refractory hypertension of progressive nature for critical care admission.
+The patient reported that he was a relatively heavy smoker, smoking approximately 1 pack per day, however, he discontinued 4 months ago.
+The patient is known for chronic uncontrolled diabetes mellitus and hypertensive diseases, peripheral arterial disease, and chronic kidney disease.
+His relatives reported that he had once a history of transient ischemic attack, and caught a Covid-19 infection 3 years ago.
+He denied having a conspicuous heart disease or any episodes of heart attacks.
+
+He has a relatively intricate hospitalization and surgical history; he had two concurrent surgical debridement of toes' gangrene 2 years ago as a consequence of peripheral arterial disease; he has been hospitalized two times 2 weeks ago, it was a transfer process from an ED of one hospital to the critical care of our hospital; at the first hospital, he was presenting with disturbed conscious level and oliguria, after which he received a bag of red packed RBCs, and intravenous fluid replacement therapy.
+The patient is known for drug non-compliance and diet disturbance which makes him a candidate for hyperglycemic crises and even hypoglycemic events.
+
+His medication history is remarkable for non-compliance, of which are the following:
+
+* Aspirin (Aspocid) 75mg o.d P.O.
+* Torsemide (Examide) 5mg o.d P.O. (Discontinued)
+* Carvedilol (Carved) 25mg b.d P.O.
+* Plendil 10mg o.d P.O.
+* Alfacalcidol (One-alpha) 0.25mg o.d P.O.
+* Cobol-F 2mg o.d P.O.
+* Epoetin alfa (Eprex) 4000 I.U/ml I.V.
+* Dapagliflozin (Forxiga) 10mg o.d P.O.
+* Ryzodeg 70/30 (insulin aspart & insulin degludec) 20U S.C.
+
+== Clinical Findings
+
+General inspection is unremarkable for any abnormal habitus except for the dusky pale skin.
+The patient is fully conscious and co-operative recording 15 on the Glasgow coma scale (GCS).
+Sensory, motor, and coordination examination are unremarkable for neurological deficits.
+
+Respiratory examination reveals diminished air entry on both sides unequally such that the right axillary and the right posterior regions are significantly diminished with expiratory wheezes.
+The community acquired pneumonia severity score, also known as the CURB-65 score, records a scale of 3 which estimates a high severity pneumonia requiring critical care admission, pan-cultures, and the immediate start of dual broad spectrum antibiotics.
+The addition of other co-morbidities, the uncontrolled hypertension and the uncontrolled diabetes and the chronic kidney disease, further signifies that this patient is at high risk of cerebrovascular accidents and cardiovascular events.
+
+Cardiovascular examination reveals left ventricular heaves with a mid-systolic ejection murmur, heard best at the aortic area and no additional sounds.
+Bilateral carotid bruits are present.
+Abdominal examination is unremarkable for major abnormalities regarding liver, spleen or bowel.
+Renal arterial bruits couldn't be elicited in attribution to abdominal distention.
+
+Lower limb inspection reveals a right shin arterial ulcer with a dusky skin all over the legs, and bilateral amputated toes.
+Lower limb examination reveals massive bilateral pitting edema, and bilaterally absent lower limb pulsations (dorsalis pedis a. — posterior tibial a. — popliteal a.).
+
+A central venous catheter (CVC) was inserted and the first record of the central venous pressure (CVP) was 30 which is far above the normal limit, reflecting a high right atrial pressure which is consistent with the myocardial hypertrophy, and the generalized decrease in myocardial compliance; as myocardial compliance is defined as the volume within the myocardial chamber divided on the pressure exerted collectively by the myocardial bundles (i.e: C = V/P), which when hypertrophied, the resultant force increases the pressure within the myocardial chambers, this produces an overall effect of increased stiffness, and a significant decrease in distensibility impairing the preload, and the venous return; the net affect is impaired cardiac output, increased after load, and venous congestion.
+
+=== Vital Signs on Admission
+
+[cols="1,2", options="header"]
+|===
+| Parameter | Value
+
+| Blood pressure
+| 210/100 mm.Hg measured on left brachium semi-recumbent position
+
+| SaO~2~
+| 95%
+
+| Heart Rate
+| 88 Bpm
+
+| Central venous pressure (CVP)
+| 30 (n: 12–18 cm.H~2~O, an average of 15 cm.H~2~O is acceptable, lower values occur with volume-dependent shocked patients, and above borderline values occur with venous congestion and diastolic dysfunction)
+
+| Random blood glucose
+| NOT RECORDED
+
+| Temperature
+| 37.2 deg. C
+
+| Urine Output
+| NOT RECORDED
+|===
+
+== Diagnostic Assessment
+
+Hypertensive crisis, aka. hypertensive emergency, is when the patient's SBP >= 180 or DBP >= 110 recorded as an average of >= 2 readings obtained on >= 2 occasions.
+This patient suffers from long-term complications of the hypertensive renovascular disease.
+
+To keep things focused and in context, the major symptom of concern was dyspnea.
+The direct provisional diagnosis is biased towards cardiopulmonary edema and pneumonia, while the differential diagnosis in-question is the pulmonary embolism, of note, they could also be concomitant.
+
+Initial on-admission diagnostic assessments will include a complete blood count, a renal function test, electrolytes profile (Na^+^, K^+^, Ca^+2^), quantitative C-reactive protein as an inflammatory marker, arterial blood gases, spiral chest CT-scan, and ECG; looking specifically for sinus tachycardia (the most common finding in pulmonary embolism) and/or ST-T abnormalities (S1-Q3-T3 pattern and right QRS axis deviation).
+
+The modified Wells' criteria is pragmatically utilized in excluding pulmonary embolism.
+However, in this patient the score sensitivity might be a little unreliable, it records a score of >= 4.5 (IV drug use = 3.0 — bedridden > 3 days = 1.5) which demands a pulmonary imaging technique to exclude pulmonary embolism in the first place.
+However, in this case CTPA is relatively incompatible with the patient's condition, and so, the fact that the patient might have a pulmonary embolism must be considered, and the patient should be followed up using lower limb ultrasonography for proximal DVT and D-dimer testing as long as the patient is hemodynamically stable.
+
+=== Diagnostics Timeline
+
+_(See timeline table — to be appended)_
+
+== Therapeutic Interventions
+
+Pharmacological therapeutics should aim at delaying the progression of the renovascular disease, the systemic hypertension (i.e, the systemic vascular resistance), and support the myocardial activity in producing the best effective cardiac output by enhancing the venous return, and increasing the myocardial compliance.
+Anti-hypertensive and negative inotropic medications are the mainstay therapy to achieve these therapeutic goals.
+
+Atherosclerosis risk factors control is as important as the mainstay therapy, this includes proper glycemic control, and limitation of hyperlipidemia.
+Life style modifications are as important as the risk factors control, and include cessation of smoking, exercise, and diet low in lipids and salt.
+Diuretics are also considered anti-hypertensive medications, and they are useful in alleviating the cardiopulmonary edema and the lower limb edema, as well.
+Renal supportive therapy can also contribute to reversing the vicious effects of the renovascular damage, however, without the mainstay therapy, those medications are rendered obsolete.
+Renal hemodialysis remains an option that should be considered for end-stage renal disease (stage 3 CKD).
+
+The choice of the anti-hypertensive medications is hard to discern, but knowing the pathopathophysiology of the renovascular disease is an indispensable tool to decide.
+Angiotensin-converting-enzyme inhibitors and angiotensin receptor blockers are the first-line anti-hypertensives, and also have relative diuretic effects, in this case.
+However, the association of two or more RAS blockers is not recommended; as it could lead to severe electrolyte imbalance and adverse hypotension.
+
+Blood pressure should be reduced to well below 140/90 mm.Hg by a rate not exceeding 25% of the systolic pressure during the first hour; then, and towards 130/80 mm.Hg when proteinuria is greater than 1g/day.
+Possible initial strategies entail combination of a RAS blocker with a calcium antagonist or a thiazide or a thiazide-like diuretics.
+However, it should be noted that RAS blockers may exacerbate pre-renal failure, therefore renal function testing should be checked at most within 7–10 days of initiating or increasing the dose, and treatment can be continued safely as long as the reduction in GFR is not exceeding 25%, and serum potassium is not higher than 6 mmol/L (108 mg/dl).
+
+=== Therapeutics Timeline
+
+_(See timeline table — to be appended)_
+
+== Follow-up and Outcomes
+
+The following is a problem list summarizing the essentials of the case for follow-up:
+
+[cols="1,2", options="header"]
+|===
+| Current Problem/Finding | Timeline
+
+| Dyspnea/Orthopnea
+| Accompanies the new admission
+
+| Pulmonary Edema
+| Accompanies the new admission
+
+| Refractory Hypertension/Hypertensive crisis
+| Chronic uncontrolled — unknown onset
+
+| Smoking
+| Discontinued 4 months ago — Chronic unknown years
+
+| Chronic uncontrolled diabetes
+| Chronic uncontrolled — unknown onset
+
+| Chronic uncontrolled hypertension
+| Chronic — Unknown onset
+
+| Peripheral arterial disease
+| Chronic — Unknown onset
+
+| Chronic kidney disease
+| Chronic — Unknown onset
+
+| History of anemia
+| Chronic — Unknown — Probably concurrent with CKD
+
+| Transient ischemic attack?
+| RESOLVED — 3 years ago
+
+| Covid-19?
+| RESOLVED — 3 years ago
+
+| History of critical care admission
+| 3 weeks ago
+
+| History of drug non-compliance
+| Unknown starting date
+|===
+
+== Discussion
+
+History and physical examination collectively ascertain that this patient is suffering from a long history of hypertensive crisis that leads to major end-organ failure as a consequence of atherosclerotic disease.
+
+== References
+
+. [[ref1]] Bidani, A., & Griffin, K. A. (2004). Pathophysiology of hypertensive renal damage. _Hypertension_, 44(5), 595–601. link:https://doi.org/10.1161/01.hyp.0000145180.38707.84[https://doi.org/10.1161/01.hyp.0000145180.38707.84]
+. [[ref2]] Min, L., Mogi, M., Li, J., Iwanami, J., Iwai, M., & Horiuchi, M. (2005). Aldosterone and angiotensin II synergistically induce mitogenic response in vascular smooth muscle cells. _Circulation Research_, 97(5), 434–442. link:https://doi.org/10.1161/01.res.0000180753.63183.95[https://doi.org/10.1161/01.res.0000180753.63183.95]
+. [[ref3]] Williams, Bryan, and others, 'Hypertension in specific conditions/co-morbidities', _The ESC Textbook of Cardiovascular Medicine_, 3 edn, The European Society of Cardiology Series (Oxford, 2018; online edn, ESC Publications, 30 July 2020), link:https://doi.org/10.1093/med/9780198784906.003.0571_update_001[https://doi.org/10.1093/med/9780198784906.003.0571_update_001]
