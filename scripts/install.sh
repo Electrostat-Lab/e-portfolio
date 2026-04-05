@@ -10,3 +10,5 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 nvm install node
 
 npm i -g antora
+
+npm install asciidoctor asciidoctor-kroki
