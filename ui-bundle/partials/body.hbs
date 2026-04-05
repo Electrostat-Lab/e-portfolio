@@ -1,4 +1,16 @@
 <div class="body">
 {{> nav}}
 {{> main}}
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+<script>
+  const lightbox = GLightbox({
+    touchNavigation: true,
+    loop: false,
+    zoomable: true,
+    slideEffect: "slide",
+    closeButton: true,
+    preload: true,
+    draggable: true,
+  });
+</script>
 </div>
