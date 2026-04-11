@@ -1,0 +1,64 @@
+= Medical Writing
+
+The following document demonstrates a flexible and robust strategy to tackle the OET medicine writing task sub-test in the form a **step-wise strategy.**
+
+== Establishing **Purpose of the letter.**
+
+There are two components for establishing the purpose of the clincal letter:
+
+* Provide an immediately apparent purpose attached at the beginning of the letter.
+* Provide a sufficiently expanding purpose and reason attached at the end of the letter.
+
+== Choosing **relevant content** to be included based on the context
+
+Choosing the relevant content is a one way to attract the reader or to lose them immediately; the writer-reader relationship, and the patient-reader relationship (i.e., Inclusion and Exclusion Critera).
+
+* Build an inclusion and an exclusion criteria by identifying the context, the writer-reader relationship, and the patient-reader relationship.
+* In addition, use the purpose of the letter and the reason to write the letter, in the first place, to better delineate the criteria parts.
+
+== Grouping information and ordering them 
+
+Grouping the information presented in the letter should be according to the formerly presented relationships; addressing both the _chronological_ and the _thematical_ ordering of the timeline, and demonstrating the temporal and the spatial relations, if exist, among the presented timeline.
+
+* Chronological ordering of the presented information.
+* Thematical ordering of the presented information.
+* Use a blend of both to address ordering of the timeline for the same situation (**Chronological Ordering**), and address **temporal ordering** of the other situations in general (**Thematical Ordering**).
+* Consider identifying the spatial relationships among different sitations, only if relevant.
+
+[TIP]
+.Ordering Techniques in Clinical Writing
+====
+> * Chronological Ordering: is a technique of ordering the information according to the temporal relationships (i.e., Whichever took place first, comes first!).
+> * Thematical Ordering: is a technique of ordering the information according to their importance to the reader and the context (i.e., Whichever is important, comes first!).
+> * Mixed thematical and chronological ordering: is a technique of ordering the information based on both the temporal and the spatial relationships among them.
+====
+
+== Identify the formal introductory briefs, their debriefs, and the tense of the content according to their temporal relationship.
+
+=== Formal introductory briefs:
+> Thank you for seeing Mrs Anne, a 45-year-old female who presented with ...., for your expert evaluation and advice.
+
+> I am referring to you Mrs Anne, ...., for further evaluation and, if indicated, further investigations including endoscopic evalution.
+
+> I would be grateful if you could review Mrs Anne, ....., for further investigations and, if indicated, for endoscopic evaluation.
+
+=== Formal debriefs:
+> Thank you for your continued management of Mrs Anne.
+
+> Should furhter information be required, please do not hesitate to contact me.
+
+> I appreciate your expert involvement for evaluating Mrs Anne, and whether the endoscopic evaluation is indicated in her case.
+
+== Avoid informal sentences and keywords taken from the academic world and poetry.
+
+* Avoid using contractions.
+* Avoid excessive abbreviations.
+* Avoid informal academic connectors.
+* Use factual writing and avoid judgemental writing style by presenting seemingly judicious materials as they are without paraphrasing.
+* Avoid long sentences.
+
+++++
+<a href="_images/medical-writing.svg" class="glightbox zoom-img">
+  <img src="_images/medical-writing.svg" alt="Medical Writing" width="500">
+</a>
+++++

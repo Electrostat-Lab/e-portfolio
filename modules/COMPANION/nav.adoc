@@ -1,3 +1,5 @@
 * Clinical Companion
 ** xref:comp.adoc[The Clinical Companion Cheat Sheet]
 ** xref:xabcde.adoc[ACP xABCDE Approach to traumatic injury]
+** xref:clinical-writing.adoc[Clinical Writing]
+** xref:clinical-listening.adoc[Clinical Listening]

@@ -1,0 +1,81 @@
+digraph OET_Writing_Strategy {
+    graph [
+        rankdir=TB
+        fontname="Helvetica"
+        fontsize=13
+        bgcolor="transparent"
+        pad=0.5
+        nodesep=0.3
+        ranksep=0.25
+        label="OET Medical Writing — Step-wise Strategy"
+        labelloc=t
+        labeljust=c
+        splines=false
+    ]
+    node [
+        fontname="Helvetica"
+        shape=box
+        style="rounded,filled"
+        penwidth=0.8
+        width=5.5
+        margin="0.25,0.18"
+    ]
+    edge [
+        fontname="Helvetica"
+        fontsize=10
+        arrowhead=vee
+        arrowsize=0.7
+        penwidth=0.8
+        color="#9C9A92"
+    ]
+
+    // ── STEP 1 — Teal ────────────────────────────────────────────────────
+    S1 [
+        label="[1]  Establish purpose\nOpening brief + expanded closing reason"
+        fillcolor="#085041"
+        color="#5DCAA5"
+        fontcolor="#9FE1CB"
+        fontsize=12
+    ]
+
+    // ── STEP 2 — Purple ──────────────────────────────────────────────────
+    S2 [
+        label="[2]  Select relevant content\nInclusion / exclusion based on context\nWriter–reader and patient–reader relationships"
+        fillcolor="#3C3489"
+        color="#AFA9EC"
+        fontcolor="#CECBF6"
+        fontsize=12
+    ]
+
+    // ── STEP 3 — Blue ────────────────────────────────────────────────────
+    S3 [
+        label="[3]  Group and order information\nChronological — same situation, temporal sequence\nThematical — cross-situations, by reader importance\nMixed blend where relevant; note spatial relations"
+        fillcolor="#0C447C"
+        color="#85B7EB"
+        fontcolor="#B5D4F4"
+        fontsize=12
+    ]
+
+    // ── STEP 4 — Coral ───────────────────────────────────────────────────
+    S4 [
+        label="[4]  Apply formal briefs and tense\nOpening brief — purpose + patient + referral intent\nDebrief — closing gratitude or invitation to contact\nTense follows temporal relationship of each fact"
+        fillcolor="#712B13"
+        color="#F0997B"
+        fontcolor="#F5C4B3"
+        fontsize=12
+    ]
+
+    // ── STEP 5 — Amber ───────────────────────────────────────────────────
+    S5 [
+        label="[5]  Maintain formal register\nNo contractions\nNo excessive abbreviations\nNo informal / academic connectors\nFactual, non-judgemental; concise sentences"
+        fillcolor="#633806"
+        color="#EF9F27"
+        fontcolor="#FAC775"
+        fontsize=12
+    ]
+
+    S1 -> S2
+    S2 -> S3
+    S3 -> S4
+    S4 -> S5
+}

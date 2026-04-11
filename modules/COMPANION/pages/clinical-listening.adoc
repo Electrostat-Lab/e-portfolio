@@ -1,0 +1,110 @@
+= Medical Listening
+
+Listening to medical contexts could sometimes be challenging. However, with the right mindset, it could be much easier and even saves time studying long pages of journal papers and textbooks.
+
+== Listening Criteria 
+The following is a trivial criteria built to grant the listener attention to what to listen for while actively listening to clinical contexts:
+
+. **Context Identification Listening**: Main context, context switch, and gist listening (Identify the context first using context statements).
+. **People Names and Voices Listening**: Names and Voices tone listening.
+. **Affirmative Listening**: Positive and negative affirms listening; it usually comes at the end of a debate, opinion or a resolved argument.
+. **Personal Opinions Listening**: and identifying the persons giving them.
+. **Details Listening**: Object details listening and association to other objects.
+. **Distractors Listening**: Identify the distractors and eliminate them.
+. **Memory Listening**: use summary keywords and listen for them or their counterparts/duplicates.
+. **Memory Listening**: Summarize what've heard after listening using professional notes or scientifc models.
+
+=== Context Identification
+Identify the context through the headings or the context statements; in most cases, the audio extracts start with the context that represents the gist of what follows along the extract trace.
+
+Each context could be broken down into a structure of components; context components could be further categorized into two broad categories; the spatial components (i.e., Object Components), and the temporal components (i.e., Time Components).
+
+Relations among components could be attained, as well; again, furtherly categorized into spatial and temporal relations.
+
+[NOTE]
+====
+Examples of spatial relations:
+
+* Two objects representing different situations; both of them describe a specific context.
+* Two objects; one of them offers solutions better than the other. 
+
+Examples of temporal relations:
+
+* Three objects representing different timestamps; two of them took place at the same time, while the last timestamp took place after them.
+
+Examples of both temporal and spatial relations:
+
+* Two objects; both of them offer solutions to the exact same problem; however, one of them is invented before the other.
+====
+
+=== Positive and negative affirms
+Identify whether the statement is negated; this could change the whole meaning.
+
+Some common **negative affirms** typically used in speaking and podcasts:
+
+* I wouldn’t bet on it
+* I’m not convinced
+* I’d be surprised if that were the case
+* that’s not necessarily true
+* I’m not so sure about that
+* I wouldn’t go that far
+* I’m inclined to disagree
+* that seems unlikely
+* I have my doubts
+* I’m not entirely convinced
+* it’s questionable
+* I wouldn’t say so
+* that doesn’t quite add up
+* I’m skeptical
+
+Some common **positive affirms** typically used in speaking and podcasts:
+
+* I’d say so
+* I’d go along with that
+* that sounds about right
+* I’d be inclined to agree
+* that seems reasonable
+* I suppose so
+* I’d imagine so
+* I can see that
+* that checks out
+* I’m with you on that
+* that holds up
+* fair enough
+* I’d support that
+* that makes sense
+
+[TIP]
+====
+There are some special affirms that have paradoxical meaning; while it seems that they carry negative affirms, they are considered strong positive affirms:
+
+* I couldn't agree more.
+* I couldn't have found someone who is knowledable enough to present this meeting.
+* I wouldn’t rule it out → (means: it’s possible / leaning YES)
+* I don’t see any reason why not → (means: YES)
+* I can’t complain → (means: it’s good)
+* it’s not impossible → (means: possible)
+* I wouldn’t be opposed → (means: yes/acceptable)
+* not unreasonable → (means: reasonable / yes)
+* I wouldn’t disagree → (means: I agree)
+* it’s not out of the question → (means: possible)
+* I’m not against it → (means: yes)
+====
+
+=== Object details
+An object has details that should be revealed as the audio extract moves on; listening for object details could be sometimes cumbersome. However, it could be augmented by **first listening for that particular statement** that presents the object in a brief way, and then tracing the events as the audio advances.
+
+* Listening for the object presenting statement.
+* Listening for the various object components.
+* Listening for the object-object relationship.
+
+=== Summaries
+Providing summaries, at the end of the recorder, is one of the most effective maneuvers to aid **objective memory listening and recalling**; it's better be practiced at the end of the recording.
+
+During the recording, a realtime summary could be practiced through the scientific models; with a structural diagram illustrating the objects in-question and their interrelationships.
+
+++++
+<a href="_images/medical-listening.svg" class="glightbox zoom-img">
+  <img src="_images/medical-listening.svg" alt="Medical Listening" width="500">
+</a>
+++++
