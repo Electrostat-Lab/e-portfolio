@@ -1,0 +1,304 @@
+digraph medical_listening {
+
+    graph [
+        rankdir     = TB
+        fontname    = "Helvetica"
+        fontsize    = 11
+        splines     = ortho
+        nodesep     = 0.55
+        ranksep     = 0.65
+        bgcolor     = "white"
+        label       = "Medical Listening — Structural Diagram"
+        labelloc    = t
+        labeljust   = c
+    ]
+
+    node [
+        fontname    = "Helvetica"
+        fontsize    = 10
+        shape       = box
+        style       = "filled,rounded"
+        penwidth    = 0.6
+        margin      = "0.18,0.10"
+    ]
+
+    edge [
+        fontname    = "Helvetica"
+        fontsize    = 9
+        arrowsize   = 0.6
+        penwidth    = 0.7
+        color       = "#888780"
+    ]
+
+    /* ── ROOT ─────────────────────────────────────────────── */
+
+    root [
+        label       = "Medical Listening"
+        fillcolor   = "#EEEDFE"
+        color       = "#534AB7"
+        fontcolor   = "#26215C"
+        fontsize    = 13
+        style       = "filled,rounded"
+        penwidth    = 1.2
+    ]
+
+    /* ── CRITERIA CONTAINER (cluster) ─────────────────────── */
+
+    subgraph cluster_criteria {
+        label       = "Listening Criteria"
+        style       = "filled,rounded"
+        fillcolor   = "#E1F5EE"
+        color       = "#0F6E56"
+        fontcolor   = "#04342C"
+        fontname    = "Helvetica-Bold"
+        fontsize    = 11
+        penwidth    = 1.0
+        margin      = 18
+
+        /* ── C1: Context Identification ────────────────────── */
+
+        c1 [
+            label       = "1. Context Identification\nGist · Context switch · Headings"
+            fillcolor   = "#EEEDFE"
+            color       = "#534AB7"
+            fontcolor   = "#26215C"
+        ]
+
+        subgraph cluster_context {
+            label       = "Context components"
+            style       = "filled,rounded"
+            fillcolor   = "#E6F1FB"
+            color       = "#185FA5"
+            fontcolor   = "#042C53"
+            fontsize    = 10
+            penwidth    = 0.6
+            margin      = 12
+
+            c1_spatial [
+                label       = "Spatial\nObject components"
+                fillcolor   = "#E6F1FB"
+                color       = "#185FA5"
+                fontcolor   = "#0C447C"
+            ]
+
+            c1_temporal [
+                label       = "Temporal\nTime components"
+                fillcolor   = "#FAEEDA"
+                color       = "#854F0B"
+                fontcolor   = "#412402"
+            ]
+
+            c1_relations [
+                label       = "Relations\nSpatial · Temporal · Both"
+                fillcolor   = "#FAECE7"
+                color       = "#993C1D"
+                fontcolor   = "#4A1B0C"
+            ]
+        }
+
+        c1_spatial  -> c1_relations [style=solid]
+        c1_temporal -> c1_relations [style=solid]
+
+        /* ── C2: People & Voices ───────────────────────────── */
+
+        c2 [
+            label       = "2. People & Voices\nNames · Tone listening"
+            fillcolor   = "#F1EFE8"
+            color       = "#5F5E5A"
+            fontcolor   = "#2C2C2A"
+        ]
+
+        /* ── C3: Affirmative ───────────────────────────────── */
+
+        c3 [
+            label       = "3. Affirmative Listening\nEnd of debate · Opinion · Argument"
+            fillcolor   = "#EEEDFE"
+            color       = "#534AB7"
+            fontcolor   = "#26215C"
+        ]
+
+        subgraph cluster_affirm {
+            label       = "Affirm types"
+            style       = "filled,rounded"
+            fillcolor   = "#f8f8f5"
+            color       = "#B4B2A9"
+            fontsize    = 10
+            penwidth    = 0.5
+            margin      = 10
+
+            c3_pos [
+                label       = "Positive\nagrees / yes"
+                fillcolor   = "#E1F5EE"
+                color       = "#0F6E56"
+                fontcolor   = "#04342C"
+            ]
+
+            c3_neg [
+                label       = "Negative\ndoubts / no"
+                fillcolor   = "#FAECE7"
+                color       = "#993C1D"
+                fontcolor   = "#4A1B0C"
+            ]
+
+            c3_par [
+                label       = "Paradoxical\nnegative form → yes"
+                fillcolor   = "#FAEEDA"
+                color       = "#854F0B"
+                fontcolor   = "#412402"
+            ]
+        }
+
+        /* ── C4: Personal Opinions ─────────────────────────── */
+
+        c4 [
+            label       = "4. Personal Opinions\nAttribute to speaker"
+            fillcolor   = "#F1EFE8"
+            color       = "#5F5E5A"
+            fontcolor   = "#2C2C2A"
+        ]
+
+        /* ── C5: Object Details ────────────────────────────── */
+
+        c5 [
+            label       = "5. Object Details\nTrace object through extract"
+            fillcolor   = "#EEEDFE"
+            color       = "#534AB7"
+            fontcolor   = "#26215C"
+        ]
+
+        subgraph cluster_obj {
+            label       = "Object detail steps"
+            style       = "filled,rounded"
+            fillcolor   = "#E6F1FB"
+            color       = "#185FA5"
+            fontcolor   = "#042C53"
+            fontsize    = 10
+            penwidth    = 0.6
+            margin      = 12
+
+            c5_intro [
+                label       = "Intro statement\nBrief overview"
+                fillcolor   = "#E6F1FB"
+                color       = "#185FA5"
+                fontcolor   = "#0C447C"
+            ]
+
+            c5_comp [
+                label       = "Components\nParts / properties"
+                fillcolor   = "#E6F1FB"
+                color       = "#185FA5"
+                fontcolor   = "#0C447C"
+            ]
+
+            c5_rels [
+                label       = "Relations\nObject-to-object"
+                fillcolor   = "#E6F1FB"
+                color       = "#185FA5"
+                fontcolor   = "#0C447C"
+            ]
+        }
+
+        c5_intro -> c5_comp  [style=solid]
+        c5_comp  -> c5_rels  [style=solid]
+
+        /* ── C6: Distractors ───────────────────────────────── */
+
+        c6 [
+            label       = "6. Distractors\nIdentify · Eliminate"
+            fillcolor   = "#FAECE7"
+            color       = "#993C1D"
+            fontcolor   = "#4A1B0C"
+        ]
+
+        /* ── C7: Memory Listening (encoding) ───────────────── */
+
+        c7 [
+            label       = "7. Memory Listening\nKeywords · Counterparts · Duplicates"
+            fillcolor   = "#EEEDFE"
+            color       = "#534AB7"
+            fontcolor   = "#26215C"
+        ]
+
+        /* ── C8: Memory Listening (summary) ────────────────── */
+
+        c8 [
+            label       = "8. Summary Memory\nPost-recording reconstruction"
+            fillcolor   = "#EEEDFE"
+            color       = "#534AB7"
+            fontcolor   = "#26215C"
+        ]
+
+        subgraph cluster_summary {
+            label       = "Summary modes"
+            style       = "filled,rounded"
+            fillcolor   = "#f8f8f5"
+            color       = "#B4B2A9"
+            fontsize    = 10
+            penwidth    = 0.5
+            margin      = 10
+
+            c8_end [
+                label       = "End-of-recording\nProf. notes / scientific models"
+                fillcolor   = "#E1F5EE"
+                color       = "#0F6E56"
+                fontcolor   = "#04342C"
+            ]
+
+            c8_rt [
+                label       = "Realtime\nScientific model diagram"
+                fillcolor   = "#FAEEDA"
+                color       = "#854F0B"
+                fontcolor   = "#412402"
+            ]
+        }
+
+    } /* end cluster_criteria */
+
+    /* ── OUTPUT NODE ──────────────────────────────────────── */
+
+    output [
+        label       = "Structural Diagram\nObjects + interrelations (output)"
+        fillcolor   = "#FAECE7"
+        color       = "#993C1D"
+        fontcolor   = "#4A1B0C"
+        penwidth    = 1.0
+        style       = "filled,rounded"
+    ]
+
+    /* ── EDGES: root → criteria ───────────────────────────── */
+
+    root -> c1
+    root -> c2
+    root -> c3
+    root -> c4
+    root -> c5
+    root -> c6
+    root -> c7
+    root -> c8
+
+    /* ── EDGES: criteria → sub-nodes ─────────────────────── */
+
+    c1 -> c1_spatial  [lhead=cluster_context]
+    c1 -> c1_temporal [lhead=cluster_context]
+
+    c3 -> c3_pos
+    c3 -> c3_neg
+    c3 -> c3_par
+
+    c5 -> c5_intro [lhead=cluster_obj]
+
+    c8 -> c8_end
+    c8 -> c8_rt
+
+    /* ── EDGES: summary modes → output ───────────────────── */
+
+    c8_end -> output
+    c8_rt  -> output
+
+    /* ── RANK HINTS ───────────────────────────────────────── */
+
+    { rank = same; c1; c2; c3; c4 }
+    { rank = same; c5; c6; c7; c8 }
+    { rank = same; c8_end; c8_rt  }
+
+}
