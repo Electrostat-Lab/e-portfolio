@@ -1,0 +1,83 @@
+= Poststroke Brain Herniation Syndrome 
+
+[.subtitle]
+Sub-falcine and an impending transtentorial herniation by link:https://github.com/pavly-gerges[Pavly G.]
+
+== Keywords:
+Neurosurgery - Neurocritical care - Stroke Syndromes - Case Report - Cushing's Reflex - Sub-falcine Herniation - Transtentorial Herniation - Decompressive Hemicraniectomy
+
+== Abstract:
+
+== Introduction:
+Stroke syndromes are one of devastating issues that could lead to a subsequent critical increase in intracranial pressures especially in the case of Massive Stroke Syndromes (e.g., Massive P. Cerebral a. Stroke).
+
+To better study the sequence of actions that could lead to the subsequent increase in the intracranial pressures and eventually brain herniation through brain meningies or foramen magnum; it is better to study what really happens when an imminent stroke takes place in an ischemic penumbra.
+
+=== Biophysics in a closed cavity:
+The intracranial pressure (ICP) is one of the most essential physiologic parameters in determining cerebral perfussion pressure (CPP), and subsequently the cerebral blood flow (CBF).
+
+It's noted that; as the ICP increases linearly; the CPP decreases, and as a result, the CBF decreases; this could be counter-parted by increasing the mean-arterial blood pressure (MAP) until a specific offset is reached, in which the cerebral auto-regulation gets compromised (i.e., De-compensation of the physiological autoregulatory reflexes).
+
+Increasing the mean-arterial blood pressure entails either increasing the cardiac output (CO) components or the Capillary Systemic Vascular Resistance (SVR) or both.
+
+++++
+<a href="_images/cerebral_autoreg.png" class="glightbox zoom-img">
+  <img src="_images/cerebral_autoreg.png" alt="Cerebral Autoregulation" width="300">
+</a>
+++++
+[.subtitle]
+[[Fig-1.1]] Fig-1.1 - Cerebral Autoregulation
+
+== Case Presentation:
+A 62-year-old male, known CKD patient, presented with disturbed conscious level; evaluated as GCS of 13/15 with E(4)-V(4)-M(6), after receiving 1 unit of packed RBCs to correct his anemia of (HB=7.6 mg/dl), most likely attributed to a early blood transfusion reaction (within 24 hours); manifested as fever and disturbed conscious levels.
+
+The patient was transferred to the ICU as result of possibility of developing transfusion-associated sepsis. Hours later at the same day; the patient developed right hemiplegia with dysphasia. After which, it's not well-documented whether the patient has entered a state of impaired consciousness within hours from the massive stroke or at the same time of the stroke.
+
+=== Remark (01):
+It's essential to know this piece of information; as it could determine whether the patient has developed a brain herniation syndrome right after the massive stroke or the patient has developed a brainstem infarction coincidentally together with the massive stroke at the level of the tegmentum involving the Ascending Reticular Activation System (ARAS).
+
+=== Remark (02):
+In any ways, in case the information is distorted, one could rely without hesitation on the objective data; typically the Angiogram Studies; Cerebrovascular CT Angiogram and Perfussion CT or MRI with MR-DWI and MRA/MRV; either of which are of great use here to attain the viability of the brainstem structures before deciding whether this patient has entered that state of imparied consciousness as a result of the mass effect and the increased intracranial pressure requiring an emergent _Decompressive Hemicraniectomy_, or another acute ischemic stroke event is simultaneously the reason for this state of impaired consciousness.
+
+Therefore, the following are diagnostic studies that should be attained as fast as possible:
+
+. Obtain two large bore IV Cannula Access to the antebrachial veins (e.g., Green 18G) whenever possible before bridging to CVC.
+. Continously monitor the blood pressure and arterial oxygen saturation.
+. If anaphylactic shock is suspected; activate the code and start resuscitation immediately.
+. Obtain a Bedside Glucose Measurement (BGM).
+. Obtain an ABG with Serum Lactate to profile the patient metabolic panel.
+. Start slow IVI of 500ml Saline until labs are available.
+. Obtain at least a chest x-ray to rule-out Transfusion-related acute lung injury (TRALI) that resembles the same clinical manifestation and management as ARDS.
+. Multislice NECT of the brain (Axial, Coronal, Oblique, and Sagittal).
+. Cerebrovascular CT Angiogram with reconstruction format.
+. An Echocardiogram looking for mural and atrial thrombosis, structural heart abnormalities (e.g., atrial myoxomas or atrial septal aneurysms), and hypo/dyskinesia.
+. Continous EKG monitoring for AF, electrical signals from accessory pathways, other and Atrial Arrhythmias signifying a suspected source of thromboembolism and Cerebral Hypoperfusion syndromes (Adams-Stokes Attacks), respectively.
+. Full blood count (FBC), and Coagulation Studies (Coagulation Profile and D-dimer).
+
+++++
+<div class="gl-grid">
+
+  <a href="_images/cerebral_autoreg.png" class="glightbox" data-gallery="gallery1">
+    <img src="_images/cerebral_autoreg.png" alt="Image 1">
+  </a>
+
+  <a href="_images/cerebral_autoreg.png" class="glightbox" data-gallery="gallery1">
+    <img src="_images/cerebral_autoreg.png" alt="Image 2">
+  </a>
+
+  <a href="_images/cerebral_autoreg.png" class="glightbox" data-gallery="gallery1">
+    <img src="_images/cerebral_autoreg.png" alt="Image 3">
+  </a>
+
+</div>
+++++
+
+== Clinical Findings:
+
+== Diagnostic Assessments:
+
+== Timeline:
+
+== Therapeutic Interventions:
+
+== References:
