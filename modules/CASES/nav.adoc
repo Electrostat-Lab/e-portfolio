@@ -2,3 +2,4 @@
 ** xref:dai.adoc[Traumatic Brain Injury: Diffuse Axonal Injury]
 ** xref:aps.adoc[Antiphospholipid Syndrome with focal neurological deficits]
 ** xref:htn-crisis.adoc[Hypertensive Crisis with Co-morbidities]
+** xref:hern-syndrome.adoc[Poststroke Brain Herniation Syndrome]
