@@ -1,6 +1,7 @@
 #!/bin/sh
 
 sudo apt install graphviz
+sudo apt install pdf2svg
 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.4/install.sh | bash
 
