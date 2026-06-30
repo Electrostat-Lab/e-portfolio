@@ -8,10 +8,15 @@ dot -Tsvg ./dot/medical_writing.dot -o ./images/medical-writing.svg
 
 cd $cached_work_dir
 
-# cd ./modules/CASES/assets/attachments
-# pdflatex ./cerebral_autoregulation.tex 
-# pdf2svg ./cerebral_autoregulation.pdf cerebral_autoregulation.svg
+cd ./modules/CASES/assets/attachments
+pdflatex ./cerebral_autoregulation.tex 
 
-# cd $cached_work_dir
+inkscape ./cerebral_autoregulation.pdf \
+  --export-type=svg \
+  --export-background=white \
+  --export-background-opacity=1 \
+  --export-filename=cerebral_autoregulation.svg
+
+cd $cached_work_dir
 
 npx antora antora-playbook.yml
