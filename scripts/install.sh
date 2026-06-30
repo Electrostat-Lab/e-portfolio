@@ -1,6 +1,8 @@
 #!/bin/sh
 
 sudo apt install graphviz
+sudo apt install inkscape
+sudo apt install texlive
 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.4/install.sh | bash
 

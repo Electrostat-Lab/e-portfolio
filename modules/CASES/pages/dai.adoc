@@ -1,7 +1,12 @@
 = Traumatic Brain Injury
 
 [.subtitle]
-Diffuse Axonal Injury - by link:https://github.com/pavly-gerges[Pavly G.]
+Diffuse Axonal Injury - by link:https://github.com/pavly-gerges[Pavly G.] 
+
+[NOTE]
+====
+Extra Caution is taken in de-identifying the patient sensitive demographic information.
+====
 
 == Keywords:
 Diffuse Axonal Injury - Traumatic brain injury (TBI) - Motor Vehicle Accident (MVA) - Decerebrate posturing - Brainstem damage
@@ -124,16 +129,19 @@ a| Unremarkable findings.
 
 a| Last day from admission day
 a| 
-++++
-<a href="_images/tbi-0/dai-us-1.png" class="glightbox zoom-img">
-  <img src="_images/tbi-0/dai-us-1.png" alt="USS" width="300">
-</a>
-++++
 
 ++++
-<a href="_images/tbi-0/dai-us-2.png" class="glightbox zoom-img">
-  <img src="_images/tbi-0/dai-us-2.png" alt="USS-2" width="300">
-</a>
+<div class="gl-grid">
+  <a href="_images/tbi-0/dai-us-1.png" class="glightbox zoom-img">
+    <img src="_images/tbi-0/dai-us-1.png" alt="USS" width="300">
+     <div class="subtitle">Hepatobiliary US</div>
+  </a>
+
+  <a href="_images/tbi-0/dai-us-2.png" class="glightbox zoom-img">
+    <img src="_images/tbi-0/dai-us-2.png" alt="USS-2" width="300">
+     <div class="subtitle">Renal US</div>
+  </a>
+</div>
 ++++
 
 a| 
@@ -405,37 +413,32 @@ Liver and renal function tests and the total creatine kinase levels are highly s
 
 == Thumbnails:
 
+[[Fig-1.1]] [[Fig-1.2]] [[Fig-2]] [[Fig-3]] 
 ++++
-<a href="_images/tbi-0/gcs-score-table.png" class="glightbox zoom-img">
-  <img src="_images/tbi-0/gcs-score-table.png" alt="GCS Score" width="300">
-</a>
-++++
-[.subtitle]
-[[Fig-1.1]] Fig-1.1 - Prognosis Reclaiming from the GCS-P Score (GCS-PA Charts), a simple graphical tool in the 3-dimensional vector-space.
+<div class="gl-grid">
 
-++++
-<a href="_images/tbi-0/gcs-score-table-2.png" class="glightbox zoom-img">
-  <img src="_images/tbi-0/gcs-score-table-2.png" alt="GCS Score" width="300">
-</a>
-++++
-[.subtitle]
-[[Fig-1.2]] Fig-1.2 - GCS-PA combined with brain CT findings.
+  <a href="_images/tbi-0/gcs-score-table.png" class="glightbox zoom-img">
+    <img src="_images/tbi-0/gcs-score-table.png" alt="GCS Score" width="300">
+        <div class="subtitle">Fig-1.1 - Prognosis Reclaiming from the GCS-P Score (GCS-PA Charts), a simple graphical tool in the 3-dimensional vector-space.</div>
+  </a>
 
-++++
-<a href="_images/tbi-0/red-nucleus.png" class="glightbox zoom-img">
-  <img src="_images/tbi-0/red-nucleus.png" alt="Red Nucleus Pathway" width="300">
-</a>
-++++
-[.subtitle]
-[[Fig-2]] Fig-2 - The red nucleus cortical, spinal and cerebellar connections.
+  <a href="_images/tbi-0/gcs-score-table-2.png" class="glightbox zoom-img">
+    <img src="_images/tbi-0/gcs-score-table-2.png" alt="GCS Score" width="300">
+        <div class="subtitle">Fig-1.2 - GCS-PA combined with brain CT findings.</div>
+  </a>
 
+  <a href="_images/tbi-0/red-nucleus.png" class="glightbox zoom-img">
+    <img src="_images/tbi-0/red-nucleus.png" alt="Red Nucleus Pathway" width="300">
+        <div class="subtitle">Fig-2 - The red nucleus cortical, spinal and cerebellar connections.</div>
+  </a>
+
+  <a href="_images/tbi-0/oculo-sympathetic-pathway.png" class="glightbox zoom-img">
+    <img src="_images/tbi-0/oculo-sympathetic-pathway.png" alt="Pathway" width="300">
+        <div class="subtitle">Fig-3 - The oculo-sympathetic pathway.</div>
+  </a>
+
+</div>
 ++++
-<a href="_images/tbi-0/oculo-sympathetic-pathway.png" class="glightbox zoom-img">
-  <img src="_images/tbi-0/oculo-sympathetic-pathway.png" alt="Pathway" width="300">
-</a>
-++++
-[.subtitle]
-[[Fig-3]] Fig-3 - The oculo-sympathetic pathway.
 
 == References
 . [[grades-tbi]] link:https://doi.org/10.1016/j.emc.2019.09.010[Misch, M. R., & Raukar, N. P. (2020). Sports Medicine Update: Concussion. Emergency medicine clinics of North America, 38(1), 207–222.].
