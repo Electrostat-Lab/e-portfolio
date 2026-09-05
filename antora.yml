@@ -1,6 +1,6 @@
-name: e-portofolio
+name: e-portfolio
 version: 1.0
-title: e-portofolio
+title: e-portfolio
 nav:
 - modules/ROOT/nav.adoc
 - modules/CASES/nav.adoc
