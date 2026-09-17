@@ -1,0 +1,216 @@
+= Spinal Cord Space Occupying Lesion
+
+[.subtitle]
+Extramedullary Intradural Dorsal Root Schwannoma - by link:https://github.com/pavly-gerges[Pavly G.] 
+
+[NOTE]
+====
+Extra Caution is taken in de-identifying the patient sensitive demographic information.
+====
+
+== Keywords:
+Spinal Cord Tumors - Neuro-Oncology - Neurosurgical techniques - Neuroanatomy - Posterior spinal approach - Dysautonomia - Brown Seqard Syndrome (BSS/Cord Hemisection) - Spinal Cord Stroke Syndromes (SCSS)
+
+== Clinical Presentation:
+A 50-year-old female patient presented with inability to walk and stand without major support, motor incoordination, and bilateral foot drop with bilateral hypoesthesia and numbness directly from beneath the breast margins down to the toes; symptoms are reported to be more severe on the left side of the body; with sciatica and weakness more to the left side.
+
+When tracing the past medical history of the patient, she reported to have had these symptoms recently over a gradual course; starting initially as a unilateral left flank pain and numbness approx. 6 months ago resembling left colic pain which had progressed over time to extend over the whole lower thoracic area in the back and in the front bounded cranially by just above the hypochondrium by few centimeters and extending to the toes bilaterally with more exacerbations at the left side. She reported that the symptoms had started to affect her motor function to bed recumbency over the last month; with a noted change about some disturbance in bowel habits (e.g., Constipation or hard defecation) likely related to the problems that had started to build up over 6 months.
+
+The patient has a history of hypertension likely type-II with no evident end-organ damage. Hypertension is well-controlled under combined dual anti-hypertensive therapy; Bisoprolol Fumarate (10 mg) and Hydrocholorothiazide (25 mg) P.O. q24hrs.
+
+The past medical and surgical histories are unremarkable for trauma, chronic diseases, other types of co-morbid surgeries or other medical and/or cardiovascular co-morbidities.
+
+Symptoms timeline as the patient had reported:
+
+[.black-header, options="header"]
+|===
+| Timeline | Symptom |
+
+a| ~6 months ago 
+a| 
+Left flank pain resembling renal colic
+
+a| ~4-5 months ago
+a| 
+Bilateral flank pain with numbness extending down the 
+from the back and the front
+
+a| ~2-1 months ago
+a| 
+* **Sensory deficits**: Bilateral flank pain with numbness over the front and the back extending cadually above the hypochondrium by a few centimeters and down to the toes resembling bilateral sciatica at the lower extremeties.
+* **Motor deficits**: Bilateral progressive axial and lower limb weakness and spasticity (velocity-dependent increase in muscle tone) from mild weakness to bilateral foot drop with inability to plantar flex, as well.
+* **Autonomic Disturbance (Dysautonomia)**: Subtle disturbance in bowel habits; experienced as altered events of constipation and relief; noted ecchymosis distally at the areas of the examiner-skin contact likely vascular extravasation particularly due to sympathetic dysautonomia.
+
+|===
+
+== Physical Examination and Clinical Findings:
+
+* Neurological Examination:
+- Gait: The patient cannot stand without support; the gait is that of shuffling (dragging) the left lower limb while inability to fully lift the right side; the movement is accompanied by swaying to the left side of the body and axial muscular weakness.
+- Sensory Examination: Hyperalgesia and Hyperapathia is noted to pinprick, and hyperesthesia to light touch to the lower limbs all the way up to beneath the breast line; just above the hypochondrium by few centimeters; noted to be more affected at the left side (i.e., Sensory level at T6-T7).
+- Special Sensory deficits: Proprioceptive loss (demonstrated using digital examination) is noted on the left toes; with preservation on the right counterparts.
+- Motor Examination of the lower limbs:
+	* Motor tone: hypotonia more on the left side with bilateral foot drop.
+	* Motor power: According to the MRC scale; the hamstring group of muscles (i.e., semitendenosus, semimembranous, and biceps femoris) show a motor power of 2 to 3, while hip flexors, adductors and abductors show a motor power of 4 to 4+. It's noted that muscle groups are more severed on the left side than on the right.
+	* Deep tendon reflexes (DTR): Positive plantar extensor response at the right side; hyperreflexia (recorded as 3+ brisk) is noted on the left knee with areflexia (recorded as 0 or 1+ trace) on the right knee.
+
+* Cranial Nerves Examination: Unremarkable.
+
+* Cardiopulmonary Examination:
+- Auscultation of the precordium is unremarkable for chest or heart diseases.
+- Lower limb is unremarkable for edema and/or calf swelling or tenderness (i.e., no signs of DVT).
+
+* Abdominal Examination:
+The abdomen is lax and unremarkable for tenderness and/or masses.
+
+[[mrc-muscle-strength-scale]]
+=== MRC Muscle Strength Scale:
+
+The Medical Research Council (MRC) scale grades muscle power on a 0–5 scale.
+Grade 4 may be subdivided into 4-, 4, and 4+ to indicate movement against
+slight, moderate, and strong resistance respectively.
+
+[cols="10%,20%,35%,35%", options="header"]
+|===
+| Grade | Descriptor | Definition | Clinical Correlation
+
+| *0*
+| No contraction
+| No visible or palpable muscle contraction.
+| Complete paralysis (plegia). Seen in complete peripheral nerve
+transection, severe spinal cord injury (e.g., complete cord
+transection), or end-stage neuromuscular disease. No functional use
+of the limb/joint.
+
+| *1*
+| Flicker or trace of contraction
+| A flicker or trace of contraction is visible or palpable, but there
+is no associated joint movement.
+| Severe weakness. Often an early sign of nerve regeneration
+(e.g., post-nerve repair) or the terminal stage before complete
+paralysis in progressive neuromuscular disease (e.g., ALS,
+Guillain-Barré syndrome). Palpation over the muscle belly/tendon is
+essential, as movement is absent.
+
+| *2*
+| Active movement, with gravity eliminated
+| The muscle can move the joint through a partial or full range of
+motion, but only when gravity is eliminated (i.e., the limb is
+supported on a horizontal plane).
+| Marked weakness. Functionally significant — the patient cannot
+lift the limb against gravity. Common in acute nerve root
+compression, moderate peripheral neuropathy, or early
+post-stroke hemiparesis.
+
+| *3*
+| Active movement against gravity
+| The muscle can move the joint through a full range of motion
+against gravity, but cannot overcome added resistance from the
+examiner.
+| Moderate weakness. The patient can perform functional movements
+(e.g., raise the arm) but cannot resist even minimal opposing force.
+Frequently used as the threshold distinguishing functionally
+significant weakness from mild/subclinical weakness.
+
+| *4-*
+| Active movement against slight resistance
+| Full range of motion against gravity and slight resistance only;
+breaks easily under testing.
+| Mild-to-moderate weakness. Often the earliest detectable deficit in
+compressive radiculopathy or mild myopathy, and a sensitive marker
+for monitoring subtle deterioration or recovery.
+
+| *4*
+| Active movement against moderate resistance
+| Full range of motion against gravity and moderate resistance from
+the examiner.
+| Mild weakness. Functionally near-normal for most activities of
+daily living, though may be noticeable on fine or repetitive tasks
+(e.g., grip endurance, fine finger movements).
+
+| *4+*
+| Active movement against strong resistance
+| Full range of motion against gravity and strong, but
+submaximal, resistance.
+| Very mild weakness, often only detected on careful comparison with
+the contralateral (unaffected) side. Common in resolving nerve
+injury or early/mild peripheral neuropathy.
+
+| *5*
+| Normal power
+| Full range of motion against gravity and full resistance,
+equivalent to the expected power for that muscle, age, and build of
+the patient.
+| Normal muscle strength. No detectable weakness. Note: normal power
+must be judged against the patient's expected baseline (build,
+age, occupation, dominant vs. non-dominant side), not an absolute
+standard.
+|===
+
+[NOTE]
+====
+As emphasised in the original source, subdivision of Grade 4 (into
+4-, 4, and 4+) is now widely recognised as clinically useful, since
+the gap between "no resistance" (Grade 3) and "full resistance"
+(Grade 5) is otherwise too broad to capture clinically meaningful
+change, particularly when monitoring recovery or progression over
+serial examinations.
+====
+
+== Diagnostic Evaluations:
+* Initial MRI Thoracolumbar (> 3 months ago) had shown a space occupying lesion at T9-T10 levels likely a well-encapsulated mass indenting the cord to the right side that has hypointense T1-weighted characteristics, in addition to a posteriolateral diffuse disc prolapse at L4-5 lumbar vertebrae partially indenting the cauda equina and the left exiting nerve root at that site.
+
+* Follow-up MRI (after ~5-6 months from the starting symptoms): 
+- 
+
+== Objective Data:
+
+== Pathophysiological Review of Cord Transection Syndromes:
+
+
+== Surgical Approaches:
+=== Goal of the surgical approach
+The goal of the surgical approach is the total or seemingly the almost total resection of the tumor and the relief of the mass effect; there are some situations where subtotal resection is reasonable over total resection (e.g., total resection will risk an intraoperative neurovascular injury with postoperative deficits or postoperative bleeding or pseudomeningocele).
+
+=== Selecting the approach
+The surgical approach is usually guided by the location; which depends predominantly on the **origin of the tumor**, and the **morphology of the tumor**; that includes the size, the shape, and the infilteration of the surrounding structures.
+
+=== Vertebral Instrumentation
+Based on the selected approach, surgical instrumentation (i.e., Transpedicular Fixation and/or Interbody Fusion) might be required if spinal instability is anticipated or predicted preoperatively or intraoperative; in case of:
+1) Unilateral disarticulation and destruction of a facet joint on a single level in case of the Cervical Spine risking the neurovascular structures injury.
+2) 
+
+The following are the main spinal approaches:
+* Posterior Approach of the spine.
+* Combined Anterior-Posterior Approach (AP).
+* Posterior Approach of the spine with dorsolateral extension.
+* Lateral Extracavitary Approach of the thoracic spine.
+
+== Surgical Technique of the posterior approach:
+
+=== Preoperative plan radiographs
+
+=== Positioning and surgical drapes
+
+=== General Anaesthesia
+
+
+[TIP]
+====
+=== Surgical Pearls for the posterior approach:
+* Vertebral Instrumentation is predetermined during the preoperative preparation stages;
+* Preoperative lateral and AP views of the levels of concern are required owing to the presence of some insidious anatomical variations (e.g., cervical rib, absent twelvith rib, additional lumbar sacralized vertebral body or lumbarized sacral vertebral body). 
+* Dissection of the paraspinal muscles is carried out in a subperiosteal fashion in the fashial/supraspinous ligament lines (i.e., in-close proximity to the spinous processes) to avoid profuse bleeding.
+* Care must be taken while manipulating the cord; to limit cord traction especially in the cervical and thoracic cord; adequate exposure of the dura must be attained, therefore it's convinent that the level of the dural exposure (i.e., Upper and lower end of the durotomy) is predetermined preopertively by taking the level of the tumor and adding two or three levels above and one or two levels below the tumor to enable adequate room for the suspension of the dura bilaterally. Furthermore, the morphology of the tumor visualized on the MRI is the best indicator whether foraminotomy (i.e., neural foramen exposure) is essential.
+* The skin incision is extended cephalad and caudad to the predetermined level of the durotomy by one or two spines.
+* Surgical Durotomy is carried out in the midline in the direction from cephalad to caudad to avoid the possibility of caudal herniation from the release of the spinal fluid from below the tumor.
+* It's convinent to limit Rongeur punches (both the Kerrison and the Double-action Leksell) once durotomy is performed and dural edges are suspended for exposure; to avoid surgical field contamination with foreign bodies.
+* Visualization of the tumor extradural extensions is done at this stage.
+* Dissection and debulking of the tumor is carried out first from the tumor-dural interface using suction and bipolar electrocautery followed by the tumor-cord interface using sharp microscissors dissection.
+* Care must be taken to avoid perforation or violation of the dura at the tumor-dural interface to avoid postoperative herniation of the dural structures, bleeding, and CSF leakage.
+* Care must be taken not to violate the arachnoid mater if the tumor has only a dural origin as the arachnoid helps to delineate the margins of the tumor-cord interface.
+* Once durotomy and dural edges suspension is performed; hemostasis is carried out interchangeably using subdural placement of longitudinal thrombin-soaked gelfoam with cottonoids on top at the lateral gutters, epidural placement of thrombin-soaked gelfoam and longitudinal packing gauze on top at the lateral gutters, and compression, while bipolar electrocautery may be limited to the epidural veins and the debulking of the tumor-dural interface unless a profuse arachnoid hemorrhage is present.
+
+====
+
+== References:

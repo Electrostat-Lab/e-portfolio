@@ -1,0 +1,78 @@
+= Hypodense Brain Lesion
+
+[.subtitle]
+A case of hypodense brain lesion with subsequent deteriorated level of consciousness by link:https://github.com/pavly-gerges[Pavly G.]
+
+== Keywords:
+Neurosurgery - Neurocritical care - Stroke Syndromes - Brain Tumors - Case Report - Cushing's Reflex - Sub-falcine Herniation - Transtentorial Herniation - Decompressive Hemicraniectomy
+
+== Abstract:
+
+== Introduction:
+
+== Case Presentation:
+A 60-year-old female patient presented with disturbed conscious level, dizziness, vomiting and hemoptysis. She has a past medical history of uncontrolled T2DM, hypertension, and several ICU admissions as a result of pneumonia (~ 4 times the last 2 years). The patient reports a history of uterine carcinomas likely fibroadenocarcinomas that were excised years ago and scheduled for review by an Oncologist.
+
+=== Physical Examination reveals the following:
+* Head and Neck: facial asymmetry, no signs of distended neck veins and/or high JVP.
+* Cardiopulmonary examination: Unremarkable - Ejection systolic murmur is noted more on the left parasternal area at 4th intercostal space likely a cardiopulmonary hyperdynamic circulation.
+* Neurological examination (Brain and Spinal Cord assessment): Bilateral positive extensor plantar reflex - reduced motor power - normotonia.
+* Abdominal examination: Unremarkable.
+* Appendicular Skeleton Examination: Unremarkable for lower limb edema - leg swelling or erythema or tenderness - peripheral eccymosis is noted at the site of superficial veins likely subcutaneous bleeding.
+
+=== Diagnostic Evaluations:
+
+=== Timeline:
+
+
+== Late Clinical Findings (2nd day):
+
+=== GCS (Glasgow Coma Scale)
+
+[cols="2,3,1", options="header"]
+|===
+| Component | Description | Score
+
+| *Eye*
+| Spontaneous = 4 +
+To sound = 3 +
+To pressure = 2 +
+None = 1 +
+Not Testable = NT
+| 1
+
+| *Verbal*
+| Orientated = 5 +
+Confused = 4 +
+Words = 3 +
+Sounds = 2 +
+None = 1 +
+Not Testable = NT
+| 1
+
+| *Motor*
+| Obeys commands = 6 +
+Localizing = 5 +
+Normal Flexion = 4 +
+Abnormal Flexion = 3 +
+Extension = 2 +
+None = 1 +
+Not Testable = NT
+| 3
+
+| *Pupils Light Reactivity*
+| Both non-reactive = 2.0 +
+Only-one non-reactive = 1.0 +
+Both are reactive = 0.0
+| 2
+|===
+
+*GCS = (5)/15, E(1)V(1)M(3). GCS-P = (3)/15.*
+
+== Diagnostic Assessments:
+
+== Timeline:
+
+== Therapeutic Interventions:
+
+== References:
