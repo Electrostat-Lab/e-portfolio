@@ -1,0 +1,52 @@
+= Posterior Spinal Instrumentation
+
+[.subtitle]
+Posterior Lumbar Transpedicular Interbody Fusion (PLIF)- by link:https://github.com/pavly-gerges[Pavly G.] 
+
+[NOTE]
+====
+Extra Caution is taken in de-identifying the patient sensitive demographic information.
+====
+
+== Keywords:
+
+== Abstract:
+
+== Introduction:
+=== Pathophysiology:
+=== Classification and indications for surgery:
+=== Anterior Instrumentation V.S. Posterior Instrumentation:
+
+== Clinical Presentation:
+A 45-year-old female patient presented with a chronic low back pain and a radiculopathy (described as a combination of numbess, tingling and pain) along the right thigh dating back to 13 years ago. The patient had not reported any traumatic events or noticeable events afterwhich the symptoms appear or exaggerated, apart from heavy lifting and her high body mass index (BMI). The patient has denied the presence of other co-morbidities including cardiovascular and metabolic chronic diseases apart from the high blood pressure which is controlled under medications.
+
+Her most complaint now is the exacerbating low back pain and the distubring lumbar radiculopathy along L4-L5 dermatomes of the right thigh and the intermittent sciatica and claudication pain. No noticeable motor neurological deficits have been reported thus far.
+
+Physical examination has revealed hypoesthesia along the L4-L5 dermatomes of the right thigh as compared to a central sensation, the patient had denied the peri-anal anaesthesia, and the S1-S2 dermatomes (i.e., little toe) are of equal tone bilaterally and not affected as compared to a central sensation. Musculoskeletal examination has revealed normotonia and normoflexia.
+
+== Diagnostic Evaluations:
+Plain radigraphs has shown an anterior vertebrolithesis at L4-L5 vertebrae with an apparent fracture pars interarticularis and inflammatory changes causing opacification of the fracture line and the surroundings. There were no noticeable degenerative changes thus far to classify this dislocation as degenerative according to Wiltse Classification.
+
+== Operative Technique:
+The authors have used a combination of image-based fluroscopic techniques together with free-hand confirmation techniques to access the pedicles of the vertebral bodies, and the vertical distraction and the counter-torque drivers to reduce the vertebrolithesis before fully securing the screw attached to the screw hub of the dislocated vertebra.
+
+== Conclusion:
+
+[TIP]
+====
+=== Surgical Pearls for the posterior transpedicular approach:
+* Freehand techniques, image-guided techniques, and percutaneous techniques are all utilized collectively for the best outcome.
+* Positioning the patient in a preop automatic reduction in a Jackson position.
+* **Length of the incision:** Skin exposure, subcutaneous, and subperiosteal exposure should account for the instrumentations (i.e., the pedicular screws hubs and the length of their rods); therefore if a single level is required for fixation, a minimum of a level above and a level below might be required for adequate exposure to place the instruments safely.
+* **Depth of the incision:** the adequate depth of the exposure is acquired by dissecting the paraspinal muscles first at the midline (i.e., their fascial lines) along the supraspinous ligament; all the way down until the medial third of the transverse process appear; as a proper transpedicular technique requires the point of the intersection of a virtual line drawn along the mid point of the transverse process and another virtual line drawn tangential to the facet component; thus adequate exposure of both the pedicle and the transverse process and their point of assembly should be attained.
+* **Identification of the pedicle direction:** lateral view intraoperative fluroscopic imaging techniques may aid in the identification of the sagittal angulation of the vertebral pedicles, however not the transverse angulation which is better assessed preoperatively based on the vertebral morphology, anatomical site and anatomical variations.
+* **Identification of the pedicle direction in a free-hand technique:** palpation of the lateral aspect of the pedicle at the medial third of the transverse process and the medial aspect of the pedicle at the pedicle-vertebral body junction; removal of the lamina may be required.
+* Palpation of the medial aspect and the lateral aspect of the pedicles using a Penfield; cannot be attained without first removing the ipsilateral lamina, dissecting the ligamentum flavum off its attachments from the vertebral lamina and the underlying dura, and vertically dissecting to the medial third of the transverse process.
+* **The entry point of the trajectories:** removal of the inferiolateral third of the superior facet using a high-speed drill or the Leksell Rongeur will give access to the lateral border of the facet; confirmation of the entry point is done by visualizing the red eye of the pedicle; the entry point is the point of assembly of the virtual vertical line passing through this point and the virtual horizontal line passing through the midpoint of the transverse process.
+* **Transpedicular trajectories angulation:** a trajectory is defined as the direction by which the instrumentations should maneuver the vertebral pedicles (e.g., Pedicle decortication, probing, taping, and screw insertion).
+** **Transverse trajectory angulation:** is the angle coincident to the transverse plane made with the positive direction of the sagittal or median plane that runs in an anteroposterior fashion; accounts for the angle made by the medial pedicle-vertebral body junction.
+* **Sagittal trajectory angulation:** is the angle coincident to the sagittal plane made with the positive direction of the transverse or the axial plane that runs parallel to the vertebral bodies endplates; accounts for the verticle angle the pedicle make with the vertebral body and the transverse process.
+* **Reduction of the vertebral dislocation:** reduction of the vertebrolithesis is performed by means of vertical and/or horizontal distraction using the rods and the distractor; first by stabilizing the rod into the screw hub of the static vertebrae using the counter-torque driver; then applying the distractor directly on the rod in a vertical or a horizontal direction or a combination of both, while stabilizing the rod into the screw hub of the other dislocated vertebra using the counter-torque driver, after that securing the rod to the dislocated vertebra while holding the distractor in place firmly with the same applied angle.
+
+
+====
