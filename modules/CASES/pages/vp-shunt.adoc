@@ -1,0 +1,10 @@
+= Posterior Spinal Instrumentation
+
+[.subtitle]
+Posterior Lumbar Transpedicular Interbody Fusion (PLIF)- by link:https://github.com/pavly-gerges[Pavly G.] 
+
+[NOTE]
+====
+Extra Caution is taken in de-identifying the patient sensitive demographic information.
+====
+
