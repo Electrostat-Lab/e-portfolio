@@ -3,3 +3,6 @@
 ** xref:aps.adoc[Antiphospholipid Syndrome with focal neurological deficits]
 ** xref:htn-crisis.adoc[Hypertensive Crisis with Co-morbidities]
 ** xref:hern-syndrome.adoc[Poststroke Brain Herniation Syndrome]
+** xref:spinal-cord-mass.adoc[Spinal Cord Space Occupying Lesion]
+** xref:posterior-spinal-instrumentation.adoc[Posterior Spinal Instrumentation (PLIF)]
+** xref:traumatic-airway-injury.adoc[Traumatic Airway Injury]
